@@ -1,0 +1,897 @@
+author,category,changeDate,enabled,hitCount,name,severity,valid,detailPage
+"ESET","Persistence","2022-02-15T16:47:49Z",false,0,".NET appx_process was enabled [A0111]",2,true,https://127.0.0.1/console/rule/20/details
+"ESET","Persistence","2022-02-15T16:47:49Z",false,0,".NET profiler registry modified [A0109a]",2,true,https://127.0.0.1/console/rule/17/details
+"ESET","Persistence","2022-02-15T16:47:49Z",false,0,".NET winappxrt.dll file modified [A0110]",2,true,https://127.0.0.1/console/rule/19/details
+"ESET","File system","2022-02-15T16:47:51Z",false,0,"Accessibility Features file modified [A0304]",2,true,https://127.0.0.1/console/rule/95/details
+"ESET","Discovery","2022-02-15T16:47:55Z",false,0,"Account discovery via PowerShell [C1110a]",1,true,https://127.0.0.1/console/rule/427/details
+"ESET","Discovery","2022-02-15T16:48:00Z",false,0,"Account Discovery [F1100]",1,true,https://127.0.0.1/console/rule/797/details
+"ESET","Persistence","2022-02-15T16:47:58Z",false,0,"Active Setup autostart registry modified by a compromised process [F0113]",2,true,https://127.0.0.1/console/rule/662/details
+"ESET","Persistence","2022-02-15T16:47:49Z",false,0,"Active Setup autostart registry modified by an unpopular process [A0100]",2,true,https://127.0.0.1/console/rule/1/details
+"ESET","File system","2022-02-15T16:47:51Z",false,0,"ADS written by unpopular process [A0300]",1,true,https://127.0.0.1/console/rule/91/details
+"ESET","File system","2022-02-15T16:47:58Z",false,0,"ADS wrote by compromised process [F0304]",1,true,https://127.0.0.1/console/rule/682/details
+"ESET","Communication","2022-02-15T16:47:52Z",false,0,"An uncommonly long DNS request [A0515]",2,true,https://127.0.0.1/console/rule/181/details
+"ESET","Discovery","2022-02-15T16:47:58Z",false,0,"AntiVirus Enumeration via WMI query [E1119]",1,true,https://127.0.0.1/console/rule/638/details
+"ESET","Discovery","2022-02-15T16:47:58Z",false,0,"AntiVirus Enumeration via WMIC [E1120]",1,true,https://127.0.0.1/console/rule/639/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:56Z",false,0,"AnyDesk Remote Desktop silent install [D0443]",2,true,https://127.0.0.1/console/rule/501/details
+"ESET","Persistence","2022-02-15T16:47:49Z",true,0,"AppCertDLLs registry was modified [A0101b]",3,true,https://127.0.0.1/console/rule/3/details
+"ESET","Persistence","2022-02-15T16:47:49Z",true,0,"AppInit_Dlls registry was modified [A0101a]",3,true,https://127.0.0.1/console/rule/2/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:48:00Z",false,0,"AppleScript was executed by osascript from an unpopular process [M0411]",2,true,https://127.0.0.1/console/rule/824/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:48:01Z",false,0,"Application opened from the command line [M0401]",2,true,https://127.0.0.1/console/rule/923/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:57Z",false,0,"Archive compression using C#.NET methods via PowerShell [E0447]",2,true,https://127.0.0.1/console/rule/571/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:57Z",false,0,"Archive compression via PowerShells Compress-Archive [E0446]",2,true,https://127.0.0.1/console/rule/570/details
+"ESET","Ransomware / Filecoders","2022-02-15T16:47:58Z",true,0,"Archive related encryption utility (PACRYPT) encrypting files [E0611]",3,true,https://127.0.0.1/console/rule/618/details
+"ESET","Ransomware / Filecoders","2022-02-15T16:47:58Z",true,0,"Archive Utility (7Zip) encrypting and deleting files [E0612]",3,true,https://127.0.0.1/console/rule/619/details
+"ESET","Ransomware / Filecoders","2022-02-15T16:47:58Z",false,0,"Archive Utility (7Zip) encrypting files [E0613]",2,true,https://127.0.0.1/console/rule/620/details
+"ESET","Ransomware / Filecoders","2022-02-15T16:47:58Z",true,0,"Archive Utility (Arc) encrypting files [E0601]",3,true,https://127.0.0.1/console/rule/608/details
+"ESET","Ransomware / Filecoders","2022-02-15T16:47:58Z",true,0,"Archive Utility (B1) encrypting files [E0609]",3,true,https://127.0.0.1/console/rule/616/details
+"ESET","Ransomware / Filecoders","2022-02-15T16:47:58Z",true,0,"Archive Utility (PACOMP) encrypting files [E0605]",3,true,https://127.0.0.1/console/rule/612/details
+"ESET","Ransomware / Filecoders","2022-02-15T16:47:58Z",true,0,"Archive Utility (Pea) encrypting files [E0602]",3,true,https://127.0.0.1/console/rule/609/details
+"ESET","Suspicious system configuration / Removing evidence","2022-02-15T16:47:58Z",true,0,"Archive Utility (PeaUtils) SDeleting (secure deleting) files [E1003]",3,true,https://127.0.0.1/console/rule/626/details
+"ESET","Ransomware / Filecoders","2022-02-15T16:47:58Z",true,0,"Archive Utility (PeaZip) encrypting files [E0603]",3,true,https://127.0.0.1/console/rule/610/details
+"ESET","Ransomware / Filecoders","2022-02-15T16:47:58Z",true,0,"Archive Utility (PKZIP) encrypting and deleting files [E0604]",3,true,https://127.0.0.1/console/rule/611/details
+"ESET","Ransomware / Filecoders","2022-02-15T16:47:58Z",true,0,"Archive Utility (PKZIP) encrypting files [E0610]",3,true,https://127.0.0.1/console/rule/617/details
+"ESET","Suspicious system configuration / Removing evidence","2022-02-15T16:47:58Z",true,0,"Archive Utility (PKZIP) shredding (secure deleting) files [E1002]",3,true,https://127.0.0.1/console/rule/625/details
+"ESET","Ransomware / Filecoders","2022-02-15T16:47:58Z",true,0,"Archive Utility (WinAce) encrypting files [E0606]",3,true,https://127.0.0.1/console/rule/613/details
+"ESET","Ransomware / Filecoders","2022-02-15T16:47:58Z",true,0,"Archive Utility (WinZip) encrypting files [E0607]",3,true,https://127.0.0.1/console/rule/614/details
+"ESET","Ransomware / Filecoders","2022-02-15T16:47:58Z",true,0,"Archive Utility (ZPAQ) encrypting files [E0608]",3,true,https://127.0.0.1/console/rule/615/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:54Z",false,0,"Attempt to add registry item [C0440]",1,true,https://127.0.0.1/console/rule/328/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:54Z",false,0,"Attempt to copy ntds.dit file [C0451]",1,true,https://127.0.0.1/console/rule/339/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:54Z",false,0,"Attempt to create shadow copy [C0452]",1,true,https://127.0.0.1/console/rule/340/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:54Z",false,0,"Attempt to create suspicious scheduled task [C0446]",1,true,https://127.0.0.1/console/rule/334/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:54Z",false,0,"Attempt to get AnyDesk ID [C0441]",1,true,https://127.0.0.1/console/rule/329/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:54Z",false,0,"Attempt to list shadow copies [C0453]",1,true,https://127.0.0.1/console/rule/341/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:54Z",false,0,"Attempt to load PowerView script [C0424]",1,true,https://127.0.0.1/console/rule/312/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:54Z",false,0,"Attempt to modify or delete shadow copies [C0401a]",2,true,https://127.0.0.1/console/rule/286/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:54Z",false,0,"Attempt to remove shadow copies through PowerShell [C0401b]",2,true,https://127.0.0.1/console/rule/287/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:54Z",false,0,"Attempt to set AnyDesk password [C0445]",1,true,https://127.0.0.1/console/rule/333/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:54Z",false,0,"Attempt to start volume shadow copy service [C0444]",1,true,https://127.0.0.1/console/rule/332/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:54Z",false,0,"Attempt to stop security account manager [C0417]",1,true,https://127.0.0.1/console/rule/306/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:54Z",false,0,"Attempt to turn off firewall through netsh [C0454]",1,true,https://127.0.0.1/console/rule/342/details
+"ESET","File system","2022-02-15T16:47:51Z",false,0,"Autorun.inf file was created/modified [A0301]",1,true,https://127.0.0.1/console/rule/92/details
+"ESET","File system","2022-02-15T16:47:51Z",false,0,"Autorun.inf file was deleted [A0303]",1,true,https://127.0.0.1/console/rule/94/details
+"ESET","Ransomware / Filecoders","2022-02-15T16:47:55Z",false,0,"Bad extension - filecoders (ext. A - C) [C0607]",2,true,https://127.0.0.1/console/rule/355/details
+"ESET","Ransomware / Filecoders","2022-02-15T16:47:55Z",false,0,"Bad extension - filecoders (ext. D - L) [C0608]",2,true,https://127.0.0.1/console/rule/356/details
+"ESET","Ransomware / Filecoders","2022-02-15T16:47:55Z",false,0,"Bad extension - filecoders (ext. M - Z) [C0609]",2,true,https://127.0.0.1/console/rule/357/details
+"ESET","Ransomware / Filecoders","2022-02-15T16:47:55Z",false,0,"Bad extension - filecoders (ext. spec., num.) [C0606]",2,true,https://127.0.0.1/console/rule/354/details
+"ESET","Ransomware / Filecoders","2022-02-15T16:47:55Z",false,0,"Bad extension - filecoders (extension parts) [C0612]",2,true,https://127.0.0.1/console/rule/360/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:48:00Z",false,0,"Base64 data being decoded via base64 utility [M0403A]",2,true,https://127.0.0.1/console/rule/819/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:48:00Z",false,0,"Base64 data being decoded via openssl utility [M0403B]",2,true,https://127.0.0.1/console/rule/820/details
+"ESET","Persistence","2022-02-15T16:47:58Z",false,0,"Batch script started from Startup Folder [F0104]",1,true,https://127.0.0.1/console/rule/654/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:54Z",false,0,"bcdboot.exe executed [C0411]",1,true,https://127.0.0.1/console/rule/301/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:54Z",false,0,"bcdedit.exe executed [C0410]",1,true,https://127.0.0.1/console/rule/300/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:56Z",false,0,"BeamYourScreen remote desktop application started [D0429]",2,true,https://127.0.0.1/console/rule/488/details
+"ESET","Persistence","2022-02-15T16:47:53Z",false,0,"Bind WMIC filter and consumer command [C0102]",1,true,https://127.0.0.1/console/rule/258/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:56Z",false,0,"BITS SetNotifyCmdLine usage [D0444]",2,true,https://127.0.0.1/console/rule/502/details
+"ESET","Communication","2022-02-15T16:47:57Z",false,0,"BITS transfer using bitsadmin.exe [D0530]",2,true,https://127.0.0.1/console/rule/517/details
+"ESET","Communication","2022-02-15T16:47:57Z",false,0,"BITS transfer using PowerShell [D0529]",2,true,https://127.0.0.1/console/rule/516/details
+"ESET","Communication","2022-02-15T16:47:57Z",false,0,"Blockchain DNS resolvers accessed [D0526]",2,true,https://127.0.0.1/console/rule/513/details
+"ESET","Persistence","2022-02-15T16:47:58Z",false,0,"Browser Helper Objects registry modified by a compromised process [F0117]",2,true,https://127.0.0.1/console/rule/666/details
+"ESET","Persistence","2022-02-15T16:47:49Z",false,0,"Browser Helper Objects registry modified by an unpopular process [A0112]",2,true,https://127.0.0.1/console/rule/21/details
+"ESET","Suspicious system configuration / Removing evidence","2022-02-15T16:48:00Z",true,0,"Certificate added into CERT ROOT [M1004]",3,true,https://127.0.0.1/console/rule/832/details
+"ESET","Registry - altering security features","2022-02-15T16:47:58Z",false,0,"Certificate added to CERT ROOT by compromised process [F0202]",1,true,https://127.0.0.1/console/rule/672/details
+"ESET","Registry - altering security features","2022-02-15T16:47:56Z",false,0,"Certificate added to CERT ROOT [D0215]",1,true,https://127.0.0.1/console/rule/452/details
+"ESET","File system","2022-02-15T16:47:51Z",true,0,"Certutil has dropped a suspicious executable [A0313]",3,true,https://127.0.0.1/console/rule/104/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:56Z",false,0,"Certutil with -decode (/decode) parameter executed [D0425]",2,true,https://127.0.0.1/console/rule/484/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:51Z",false,0,"Certutil with -urlcache parameter executed [A0425]",2,true,https://127.0.0.1/console/rule/131/details
+"ESET","Web browser-related","2022-02-15T16:47:53Z",false,0,"Chrome executing suspicious extension [B0703]",2,true,https://127.0.0.1/console/rule/247/details
+"ESET","Web browser related","2022-02-15T16:48:00Z",false,0,"Chrome executing suspicious extension [M0701]",2,true,https://127.0.0.1/console/rule/827/details
+"ESET","Web browser-related","2022-02-15T16:47:53Z",false,0,"Chrome renaming [B0702]",2,true,https://127.0.0.1/console/rule/246/details
+"ESET","Web browser-related","2022-02-15T16:47:53Z",false,0,"Chrome updates disabling [B0701]",2,true,https://127.0.0.1/console/rule/245/details
+"ESET","Web browser related","2022-02-15T16:48:01Z",false,0,"Chromium based browser extension installation [D0700]",2,true,https://127.0.0.1/console/rule/905/details
+"ESET","Removing evidence","2022-02-15T16:47:53Z",true,0,"Clearing event logs [B1001]",3,true,https://127.0.0.1/console/rule/252/details
+"ESET","Communication","2022-02-15T16:47:52Z",false,0,"Cmd.exe creates an external network connection [A0511b]",2,true,https://127.0.0.1/console/rule/179/details
+"ESET","Communication","2022-02-15T16:47:52Z",false,0,"Cmd.exe creates an internal network connection [A0511a]",1,true,https://127.0.0.1/console/rule/178/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:53Z",true,0,"cmd.exe executed under a different name [B0404][C]",3,true,https://127.0.0.1/console/rule/235/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:56Z",true,0,"CobaltStrike rundll32.exe default entrypoint [D0447]",3,true,https://127.0.0.1/console/rule/505/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:56Z",false,0,"CoinMiner-like command line [D0424]",2,true,https://127.0.0.1/console/rule/483/details
+"ESET","Persistence","2022-02-15T16:47:53Z",false,0,"Command Processor AutoRun registry was modified [B0104]",2,true,https://127.0.0.1/console/rule/225/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:59Z",false,0,"Command prompt with compromised parent process [F0459]",1,true,https://127.0.0.1/console/rule/764/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:51Z",false,0,"Command prompt with unpopular parent process [A0400]",1,true,https://127.0.0.1/console/rule/111/details
+"ESET","Persistence","2022-02-15T16:47:49Z",false,0,"Common AutoStart registry modified by an unpopular process [A0103a]",2,true,https://127.0.0.1/console/rule/5/details
+"ESET","Persistence","2022-02-15T16:47:58Z",false,0,"Common AutoStart registry modified by compromised process [F0114]",2,true,https://127.0.0.1/console/rule/663/details
+"ESET","Persistence","2022-02-15T16:47:49Z",false,0,"Common AutoStart registry modified by PowerShell [A0103c]",2,true,https://127.0.0.1/console/rule/7/details
+"ESET","Persistence","2022-02-15T16:47:49Z",false,0,"Common AutoStart registry modified by reg.exe [A0103b]",1,true,https://127.0.0.1/console/rule/6/details
+"ESET","Persistence","2022-02-15T16:47:49Z",false,0,"Common AutoStart registry modified by script interpreter [A0103d]",2,true,https://127.0.0.1/console/rule/8/details
+"ESET","Communication","2022-02-15T16:48:00Z",false,0,"Compromised process communicating over potentially suspicious protocol - detected XMPP communication [F0506]",2,true,https://127.0.0.1/console/rule/779/details
+"ESET","Communication","2022-02-15T16:48:00Z",false,0,"Compromised process communicating over Suspicious Email Protocol [F0503]",2,true,https://127.0.0.1/console/rule/776/details
+"ESET","File system","2022-02-15T16:47:58Z",false,0,"Compromised process has written to the Recycle Bin folder [F0303]",2,true,https://127.0.0.1/console/rule/681/details
+"ESET","Communication","2022-02-15T16:48:00Z",false,0,"Compromised process made HTTP request to a popular Web Service [F0505]",2,true,https://127.0.0.1/console/rule/778/details
+"ESET","Communication","2022-02-15T16:48:00Z",false,0,"Compromised process made suspicious http query [F0507]",1,true,https://127.0.0.1/console/rule/780/details
+"ESET","Communication","2022-02-15T16:48:00Z",true,0,"Compromised process makes HTTP request to a PasteBin-like site [F0504]",3,true,https://127.0.0.1/console/rule/777/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:59Z",false,0,"Computer was restarted [F0462b]",1,true,https://127.0.0.1/console/rule/768/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:59Z",false,0,"Computer was shut down [F0462a]",1,true,https://127.0.0.1/console/rule/767/details
+"ESET","Communication","2022-02-15T16:48:01Z",false,0,"Connection to a malicious site - Wauchos [Z0501]",3,true,https://127.0.0.1/console/rule/929/details
+"ESET","Communication","2022-02-15T16:48:00Z",false,0,"Connection to DCOM Office app [F0502]",1,true,https://127.0.0.1/console/rule/775/details
+"ESET","File system","2022-02-15T16:47:56Z",true,0,"Copy important registry hive file from shadow volumes using PowerShell [D0330]",3,true,https://127.0.0.1/console/rule/467/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:59Z",false,0,"CPL applet execution [F0407]",2,true,https://127.0.0.1/console/rule/691/details
+"ESET","File system","2022-02-15T16:47:58Z",false,0,"CPL applet module drop [F0300]",1,true,https://127.0.0.1/console/rule/678/details
+"ESET","Persistence","2022-02-15T16:47:53Z",false,0,"Create WMIC command-line event consumer command [C0103]",1,true,https://127.0.0.1/console/rule/259/details
+"ESET","Persistence","2022-02-15T16:47:53Z",false,0,"Create WMIC event filter command [C0104]",1,true,https://127.0.0.1/console/rule/260/details
+"ESET","Persistence","2022-02-15T16:47:58Z",false,0,"Credential Providers registry modified by a compromised process [F0116]",2,true,https://127.0.0.1/console/rule/665/details
+"ESET","Persistence","2022-02-15T16:47:49Z",false,0,"Credential Providers registry modified by an unpopular process [A0105]",2,true,https://127.0.0.1/console/rule/13/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:56Z",true,0,"cscript executed under a different name [D0409][C]",2,true,https://127.0.0.1/console/rule/475/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:51Z",false,0,"Cscript.exe executed process [A0401]",2,true,https://127.0.0.1/console/rule/112/details
+"ESET","Persistence","2022-02-15T16:47:50Z",false,0,"Custom application compatibility shim file was created/modified [A0139a]",2,true,https://127.0.0.1/console/rule/52/details
+"ESET","Persistence","2022-02-15T16:47:50Z",false,0,"Custom application compatibility shim registry was modified [A0140]",1,true,https://127.0.0.1/console/rule/54/details
+"ESET","Persistence","2022-02-15T16:47:50Z",false,0,"Default Application Compatibility Database file was modified [A0139b]",2,true,https://127.0.0.1/console/rule/53/details
+"ESET","Persistence","2022-02-15T16:47:49Z",false,0,"Default Windows .NET debugger registry modified [A0106]",2,true,https://127.0.0.1/console/rule/14/details
+"ESET","Persistence","2022-02-15T16:47:49Z",false,0,"Default Windows debugger registry modified [A0108]",1,true,https://127.0.0.1/console/rule/16/details
+"ESET","Persistence","2022-02-15T16:47:49Z",false,0,"Default Windows script debugger registry modified [A0107]",2,true,https://127.0.0.1/console/rule/15/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:59Z",false,0,"Delayed file deletion [F0444]",2,true,https://127.0.0.1/console/rule/740/details
+"ESET","Suspicious system configuration / Removing evidence","2022-02-15T16:47:53Z",true,0,"Deleting backup silently [B1005]",3,true,https://127.0.0.1/console/rule/256/details
+"ESET","Removing evidence","2022-02-15T16:48:00Z",true,0,"Deleting history [M1003]",3,true,https://127.0.0.1/console/rule/831/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:56Z",false,0,"Desktopimgdownldr download with suspicious extension [D0440b]",2,true,https://127.0.0.1/console/rule/499/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:56Z",false,0,"Desktopimgdownldr execution with suspicious extension [D0440a]",2,true,https://127.0.0.1/console/rule/498/details
+"ESET","Ransomware / Filecoders","2022-02-15T16:47:55Z",false,0,"Dharma ransomware toolkit item file name was written [C0637]",2,true,https://127.0.0.1/console/rule/385/details
+"ESET","Defense Evasion","2022-02-15T16:47:57Z",false,0,"Disable logging using auditpol [D1207]",2,true,https://127.0.0.1/console/rule/539/details
+"ESET","Suspicious system configuration / Removing evidence","2022-02-15T16:47:55Z",false,0,"Disabling RDP authentication [C1010]",1,true,https://127.0.0.1/console/rule/399/details
+"ESET","File system","2022-02-15T16:48:01Z",false,0,"Diskpart command from cmd.exe [C0310]",1,true,https://127.0.0.1/console/rule/893/details
+"ESET","File system","2022-02-15T16:47:54Z",false,0,"Diskpart.exe executed [C0313]",1,true,https://127.0.0.1/console/rule/273/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:57Z",false,0,"Dism.exe execution from a suspicious location [E0410]",2,true,https://127.0.0.1/console/rule/554/details
+"ESET","Communication","2022-02-15T16:47:58Z",false,0,"Dism.exe network activity [E0540]",2,true,https://127.0.0.1/console/rule/602/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:57Z",true,0,"Dism.exe suspicious child process [E0411]",3,true,https://127.0.0.1/console/rule/555/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:57Z",false,0,"DismCore.dll loaded from a suspicious location [E0418]",2,true,https://127.0.0.1/console/rule/562/details
+"ESET","Discovery","2022-02-15T16:47:53Z",false,0,"DNS zone transfer request [A1101]",1,true,https://127.0.0.1/console/rule/199/details
+"ESET","Persistence","2022-02-15T16:48:01Z",false,0,"Domain Account creation using PowerShell [D0104]",2,true,https://127.0.0.1/console/rule/902/details
+"ESET","Discovery","2022-02-15T16:47:57Z",false,0,"Domain trust discovery [D1102]",1,true,https://127.0.0.1/console/rule/532/details
+"ESET","Discovery","2022-02-15T16:47:56Z",false,0,"Domain trust enumeration via NLTest/ADFind [C1118]",1,true,https://127.0.0.1/console/rule/437/details
+"ESET","Discovery","2022-02-15T16:47:56Z",false,0,"Domain users discovery via net.exe [C1114]",1,true,https://127.0.0.1/console/rule/432/details
+"ESET","Registry - altering security features","2022-02-15T16:47:56Z",false,0,"Downgrade Windows components to Windows Preinstallation Environment [D0220]",2,true,https://127.0.0.1/console/rule/457/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:48:00Z",true,0,"Dropped executable similar to known malware [X0402]",3,true,https://127.0.0.1/console/rule/836/details
+"ESET","Discovery","2022-02-15T16:47:53Z",false,0,"Dsquery was executed [A1100]",1,true,https://127.0.0.1/console/rule/198/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:54Z",false,0,"Dump attempt in command-line [C0438]",1,true,https://127.0.0.1/console/rule/326/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:54Z",false,0,"dwwin.exe executed [C0421]",1,true,https://127.0.0.1/console/rule/310/details
+"ESET","Communication","2022-02-15T16:47:52Z",false,0,"Dynamic DNS provider connection [A0506]",2,true,https://127.0.0.1/console/rule/174/details
+"ESET","Experimental","2022-02-15T16:48:01Z",false,0,"Elevated execution with prompt (via authtrampoline) [M0407]",2,true,https://127.0.0.1/console/rule/925/details
+"ESET","Discovery","2022-02-15T16:48:00Z",false,0,"Elevated integrity level detection [F1112]",1,true,https://127.0.0.1/console/rule/805/details
+"ESET","Persistence","2022-02-15T16:48:00Z",false,0,"Emond rule added/modified [M0105]",2,true,https://127.0.0.1/console/rule/811/details
+"ESET","Suspicious system configuration / Removing evidence","2022-02-15T16:48:00Z",true,0,"Enable Hide500Users attribute [M1000]",3,true,https://127.0.0.1/console/rule/829/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:52Z",false,0,"Encoded Visual Basic script file executed [A0437]",1,true,https://127.0.0.1/console/rule/150/details
+"ESET","Ransomware / Filecoders","2022-02-15T16:47:53Z",true,0,"Encryption of files [B0602]",3,true,https://127.0.0.1/console/rule/244/details
+"ESET","Discovery","2022-02-15T16:47:56Z",false,0,"Enterprise admins group members discovery via net.exe [C1113]",1,true,https://127.0.0.1/console/rule/431/details
+"ESET","Discovery","2022-02-15T16:47:56Z",false,0,"Enumeration for privilege escalation through SharpUp application [C1112b]",1,true,https://127.0.0.1/console/rule/430/details
+"ESET","Discovery","2022-02-15T16:47:56Z",false,0,"Enumeration for privilege escalation through windows-exploit-suggester [C1112a]",1,true,https://127.0.0.1/console/rule/429/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:54Z",false,0,"Esentutl in command-line [C0450]",1,true,https://127.0.0.1/console/rule/338/details
+"ESET","Office","2022-02-15T16:48:00Z",false,0,"Excel Add-in registry modified [F0800]",1,true,https://127.0.0.1/console/rule/786/details
+"ESET","File system","2022-02-15T16:47:56Z",false,0,"Executable (EXE/COM/SCR) written to remote network share [D0323]",2,true,https://127.0.0.1/console/rule/460/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:48:00Z",true,0,"Executable similar to known malware [X0401]",3,true,https://127.0.0.1/console/rule/835/details
+"ESET","Communication","2022-02-15T16:47:53Z",false,0,"Exploit kit (Rig-v) - suspicious communication [B0505]",2,true,https://127.0.0.1/console/rule/241/details
+"ESET","Communication","2022-02-15T16:47:53Z",false,0,"Exploit kit (Sundown) - possible suspicious communication [B0506]",2,true,https://127.0.0.1/console/rule/242/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:54Z",false,0,"Exploitable application has been executed [C0402]",2,true,https://127.0.0.1/console/rule/289/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:51Z",true,0,"Explorer.exe executed script process [A0402]",3,true,https://127.0.0.1/console/rule/113/details
+"ESET","Communication","2022-02-15T16:48:00Z",false,0,"External network connection from rundll32.exe started from a compromised process [F0510b]",2,true,https://127.0.0.1/console/rule/785/details
+"ESET","Communication","2022-02-15T16:47:52Z",false,0,"External network connection from rundll32.exe started from an unpopular process [A0504b]",2,true,https://127.0.0.1/console/rule/171/details
+"ESET","Communication","2022-02-15T16:47:52Z",false,0,"External network connection from wscript.exe [A0505b]",2,true,https://127.0.0.1/console/rule/173/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:54Z",false,0,"fiddler.exe executed [C0449]",1,true,https://127.0.0.1/console/rule/337/details
+"ESET","Discovery","2022-02-15T16:47:55Z",false,0,"File and directory discovery via PowerShell [C1109a]",1,true,https://127.0.0.1/console/rule/425/details
+"ESET","Discovery","2022-02-15T16:47:55Z",false,0,"File and directory discovery via PowerShell [C1109b]",1,true,https://127.0.0.1/console/rule/426/details
+"ESET","Discovery","2022-02-15T16:48:01Z",false,0,"File and directory discovery via PowerShell [C1109c]",1,true,https://127.0.0.1/console/rule/901/details
+"ESET","Discovery","2022-02-15T16:48:01Z",false,0,"File and Directory Discovery [F1101]",1,true,https://127.0.0.1/console/rule/917/details
+"ESET","Persistence","2022-02-15T16:47:50Z",false,0,"File association for execution changed by an unpopular process [A0141]",1,true,https://127.0.0.1/console/rule/55/details
+"ESET","Persistence","2022-02-15T16:48:00Z",false,0,"File association for execution changed [M0107]",2,true,https://127.0.0.1/console/rule/813/details
+"ESET","File system","2022-02-15T16:47:56Z",false,0,"File copied through GoToMyPC (LogMeIn) [D0326]",2,true,https://127.0.0.1/console/rule/463/details
+"ESET","File system","2022-02-15T16:47:56Z",false,0,"File copied through TeamViewer [D0325]",2,true,https://127.0.0.1/console/rule/462/details
+"ESET","File system","2022-02-15T16:47:56Z",false,0,"File copied through TightVNC [D0327]",2,true,https://127.0.0.1/console/rule/464/details
+"ESET","File system","2022-02-15T16:47:54Z",false,0,"File CSIDL_X has been written [C0305]",2,true,https://127.0.0.1/console/rule/267/details
+"ESET","File system","2022-02-15T16:47:54Z",false,0,"File deleted from documents folder [C0306]",1,true,https://127.0.0.1/console/rule/268/details
+"ESET","File system","2022-02-15T16:47:54Z",false,0,"File deleted from system folder [C0307]",1,true,https://127.0.0.1/console/rule/269/details
+"ESET","File system","2022-02-15T16:47:53Z",false,0,"File deletion via PowerShell [C0301a]",1,true,https://127.0.0.1/console/rule/261/details
+"ESET","File system","2022-02-15T16:47:53Z",false,0,"File deletion via PowerShell [C0301b]",1,true,https://127.0.0.1/console/rule/262/details
+"ESET","File system","2022-02-15T16:47:53Z",false,0,"File deletion via PowerShell [C0301c]",1,true,https://127.0.0.1/console/rule/263/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:56Z",false,0,"File executed from Remote Desktop Client computer (tsclient) [D0432]",2,true,https://127.0.0.1/console/rule/491/details
+"ESET","File system","2022-02-15T16:48:01Z",false,0,"File memory.dmp was written into windows folder [C0322]",1,true,https://127.0.0.1/console/rule/894/details
+"ESET","Persistence","2022-02-15T16:47:50Z",true,0,"File modified in %startup% folder [A0127a]",3,true,https://127.0.0.1/console/rule/36/details
+"ESET","File system","2022-02-15T16:47:56Z",false,0,"File moved from Remote Desktop Client computer (tsclient) [D0324]",2,true,https://127.0.0.1/console/rule/461/details
+"ESET","File system","2022-02-15T16:47:53Z",false,0,"File permissions modification attempt via PowerShell [C0302a]",1,true,https://127.0.0.1/console/rule/264/details
+"ESET","File system","2022-02-15T16:47:53Z",false,0,"File permissions modification attempt via PowerShell [C0302b]",1,true,https://127.0.0.1/console/rule/265/details
+"ESET","File system","2022-02-15T16:47:53Z",false,0,"File permissions modification attempt via PowerShell [C0302c]",1,true,https://127.0.0.1/console/rule/266/details
+"ESET","Ransomware / Filecoders","2022-02-15T16:47:55Z",false,0,"File probably encrypted with filecoder [C0610]",2,true,https://127.0.0.1/console/rule/358/details
+"ESET","Discovery","2022-02-15T16:47:56Z",false,0,"File share enumberation via PowerShell script (Sharefinder.ps1) [C1117b]",1,true,https://127.0.0.1/console/rule/436/details
+"ESET","Discovery","2022-02-15T16:47:56Z",false,0,"File share enumeration via net.exe [C1117a]",1,true,https://127.0.0.1/console/rule/435/details
+"ESET","Ransomware / Filecoders","2022-02-15T16:47:55Z",true,0,"File used by DiskCryptor application has been written [C0618]",3,true,https://127.0.0.1/console/rule/366/details
+"ESET","Ransomware / Filecoders","2022-02-15T16:47:55Z",true,0,"File used by Win32/Diskcoder.C has been written [C0616]",3,true,https://127.0.0.1/console/rule/364/details
+"ESET","Ransomware / Filecoders","2022-02-15T16:47:55Z",true,0,"File used by Win32/Diskcoder.D has been written [C0617]",3,true,https://127.0.0.1/console/rule/365/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:48:00Z",true,0,"File with a suspicious extension executed [M0412]",3,true,https://127.0.0.1/console/rule/825/details
+"ESET","Ransomware / Filecoders","2022-02-15T16:47:55Z",true,0,"File with extension used by Win32/Filecoder.BTCWare has been written [C0615]",3,true,https://127.0.0.1/console/rule/363/details
+"ESET","Ransomware / Filecoders","2022-02-15T16:47:55Z",true,0,"File with extension used by Win32/Filecoder.Crysis has been written [C0613]",3,true,https://127.0.0.1/console/rule/361/details
+"ESET","Ransomware / Filecoders","2022-02-15T16:47:55Z",true,0,"File with extension used by Win32/Filecoder.FS has been written [C0621]",3,true,https://127.0.0.1/console/rule/369/details
+"ESET","Ransomware / Filecoders","2022-02-15T16:47:55Z",true,0,"File with extension used by Win32/Filecoder.FV has been written [C0620]",3,true,https://127.0.0.1/console/rule/368/details
+"ESET","Ransomware / Filecoders","2022-02-15T16:47:55Z",true,0,"File with extension used by Win32/Filecoder.GandCrab has been written [C0605]",3,true,https://127.0.0.1/console/rule/353/details
+"ESET","Ransomware / Filecoders","2022-02-15T16:47:55Z",true,0,"File with extension used by Win32/Filecoder.HydraCrypt has been written [C0604]",3,true,https://127.0.0.1/console/rule/352/details
+"ESET","Ransomware / Filecoders","2022-02-15T16:47:55Z",true,0,"File with extension used by Win32/Filecoder.LockedFile has been written [C0623]",3,true,https://127.0.0.1/console/rule/371/details
+"ESET","Ransomware / Filecoders","2022-02-15T16:47:55Z",true,0,"File with extension used by Win32/Filecoder.Locky has been written [C0602]",3,true,https://127.0.0.1/console/rule/350/details
+"ESET","Ransomware / Filecoders","2022-02-15T16:47:55Z",true,0,"File with extension used by Win32/Filecoder.Ouroboros has been written [C0627]",3,true,https://127.0.0.1/console/rule/375/details
+"ESET","Ransomware / Filecoders","2022-02-15T16:47:55Z",true,0,"File with extension used by Win32/Filecoder.Phobos has been written [C0625]",3,true,https://127.0.0.1/console/rule/373/details
+"ESET","Ransomware / Filecoders","2022-02-15T16:47:55Z",false,0,"File with extension used by Win32/Filecoder.Ryuk has been written [C0626]",2,true,https://127.0.0.1/console/rule/374/details
+"ESET","Ransomware / Filecoders","2022-02-15T16:47:55Z",true,0,"File with extension used by Win32/Filecoder.STOP has been written [C0624]",3,true,https://127.0.0.1/console/rule/372/details
+"ESET","Ransomware / Filecoders","2022-02-15T16:47:55Z",false,0,"File with extension used by Win32/Filecoder.WastedLocker has been written [C0629]",2,true,https://127.0.0.1/console/rule/377/details
+"ESET","File system","2022-02-15T16:47:54Z",false,0,"File with image/container extension deletion attempt [C0311]",1,true,https://127.0.0.1/console/rule/271/details
+"ESET","Ransomware / Filecoders","2022-02-15T16:47:55Z",false,0,"File with name containing keyword used by Win32/Filecoder.RagnarLocker was written [C0639]",2,true,https://127.0.0.1/console/rule/387/details
+"ESET","File system","2022-02-15T16:47:54Z",false,0,"File with snapshot related extension deletion attempt [C0312]",1,true,https://127.0.0.1/console/rule/272/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:54Z",false,0,"File with suspicious name has been executed [C0426]",1,true,https://127.0.0.1/console/rule/314/details
+"ESET","Ransomware / Filecoders","2022-02-15T16:47:54Z",false,0,"File with suspicious name has been written (Conti) [C0327]",1,true,https://127.0.0.1/console/rule/285/details
+"ESET","Ransomware / Filecoders","2022-02-15T16:47:55Z",true,0,"File with the format used by Win32/Filecoder.NDT has been written [C0603]",3,true,https://127.0.0.1/console/rule/351/details
+"ESET","Ransomware / Filecoders","2022-02-15T16:47:55Z",true,0,"File with unexpected extension is written into documents folder [C0628]",3,true,https://127.0.0.1/console/rule/376/details
+"ESET","File system","2022-02-15T16:47:54Z",false,0,"File written into minidump folder [C0318]",1,true,https://127.0.0.1/console/rule/278/details
+"ESET","Ransomware / Filecoders","2022-02-15T16:48:00Z",true,0,"Filecoder behavior [M0601]",3,true,https://127.0.0.1/console/rule/826/details
+"ESET","Ransomware / Filecoders","2022-02-15T16:48:00Z",true,0,"Filecoder behavior [Z0601]",3,true,https://127.0.0.1/console/rule/877/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:48:01Z",false,0,"filezilla.exe executed [C0456]",1,true,https://127.0.0.1/console/rule/900/details
+"ESET","Registry - altering security features","2022-02-15T16:48:00Z",false,0,"Firewall rules manipulation [M0202]",2,true,https://127.0.0.1/console/rule/814/details
+"ESET","File system","2022-02-15T16:48:00Z",false,0,"Format command from cmd.exe [C0309]",1,true,https://127.0.0.1/console/rule/892/details
+"ESET","File system","2022-02-15T16:47:54Z",false,0,"format.com executed [C0314]",1,true,https://127.0.0.1/console/rule/274/details
+"ESET","File system","2022-02-15T16:47:54Z",false,0,"fsutil volume dismount command executed [C0316]",1,true,https://127.0.0.1/console/rule/276/details
+"ESET","File system","2022-02-15T16:47:54Z",false,0,"fsutil wim removewim command executed [C0317]",1,true,https://127.0.0.1/console/rule/277/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:58Z",true,0,"Generic Apache backdoor activity - child process [F0402]",3,true,https://127.0.0.1/console/rule/686/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:58Z",true,0,"Generic IIS backdoor activity - child process [F0403]",3,true,https://127.0.0.1/console/rule/687/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:54Z",false,0,"Get-GPPPassword command through PowerShell [C0439]",1,true,https://127.0.0.1/console/rule/327/details
+"ESET","Discovery","2022-02-15T16:47:53Z",false,0,"GetWindowText API string in AMSI script [A1102]",1,true,https://127.0.0.1/console/rule/200/details
+"ESET","Persistence","2022-02-15T16:48:00Z",false,0,"Google Chrome profile modification by unpopular process [M0106]",1,true,https://127.0.0.1/console/rule/812/details
+"ESET","File system","2022-02-15T16:47:56Z",false,0,"Grant full access to path [D0329]",1,true,https://127.0.0.1/console/rule/466/details
+"ESET","Registry - altering security features","2022-02-15T16:47:50Z",false,0,"Group policy PowerShell ExecutionPolicy was set to RemoteSigned [A0205b]",1,true,https://127.0.0.1/console/rule/67/details
+"ESET","Registry - altering security features","2022-02-15T16:47:50Z",false,0,"Group policy PowerShell ExecutionPolicy was set to Unrestricted [A0205a]",2,true,https://127.0.0.1/console/rule/66/details
+"ESET","Persistence","2022-02-15T16:47:49Z",false,0,"Group policy registry AutoStart was modified [A0115]",2,true,https://127.0.0.1/console/rule/24/details
+"ESET","File system","2022-02-15T16:47:57Z",false,0,"High-risk process has written to the Recycle Bin folder [E0301]",2,true,https://127.0.0.1/console/rule/543/details
+"ESET","Communication","2022-02-15T16:47:57Z",true,0,"High-risk process makes HTTP request to a PasteBin-like site [E0506]",3,true,https://127.0.0.1/console/rule/584/details
+"ESET","Communication","2022-02-15T16:47:57Z",true,0,"High-risk process makes HTTP request to a popular Web Service [E0503]",3,true,https://127.0.0.1/console/rule/581/details
+"ESET","Registry - altering security features","2022-02-15T16:47:50Z",false,0,"Hosts file location registry was modified [A0202]",2,true,https://127.0.0.1/console/rule/64/details
+"ESET","File system","2022-02-15T16:47:51Z",false,0,"HTA file written/renamed [A0305]",1,true,https://127.0.0.1/console/rule/96/details
+"ESET","Registry - altering security features","2022-02-15T16:47:58Z",false,0,"HTTP proxy related registry key removal [E1206]",1,true,https://127.0.0.1/console/rule/651/details
+"ESET","Communication","2022-02-15T16:48:00Z",false,0,"HTTP request from Windows Installer (msiexec) [A0514]",1,true,https://127.0.0.1/console/rule/883/details
+"ESET","Ransomware / Filecoders","2022-02-15T16:47:55Z",false,0,"Http request to url specific to Win32/Filecoder.Egregor [C0636]",2,true,https://127.0.0.1/console/rule/384/details
+"ESET","Ransomware / Filecoders","2022-02-15T16:47:55Z",false,0,"Http request to url specific to Win32/Filecoder.Nemty [C0634]",2,true,https://127.0.0.1/console/rule/382/details
+"ESET","Ransomware / Filecoders","2022-02-15T16:47:55Z",false,0,"Http request to url specific to Win32/Filecoder.ODM (SunCrypt) [C0635]",2,true,https://127.0.0.1/console/rule/383/details
+"ESET","Persistence","2022-02-15T16:47:49Z",false,0,"IconServiceLib registry was modified [A0116]",2,true,https://127.0.0.1/console/rule/25/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:56Z",false,0,"IExplore tries to execute an unpopular process from %TMP% directory [D0401]",2,true,https://127.0.0.1/console/rule/469/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:56Z",true,0,"IExplorer tries to execute file form %TMP% thru regsvr32 trampoline [D0402]",3,true,https://127.0.0.1/console/rule/470/details
+"ESET","Persistence","2022-02-15T16:47:50Z",false,0,"Image File Execution Options Debugger registry was modified [A0145]",2,true,https://127.0.0.1/console/rule/59/details
+"ESET","File system","2022-02-15T16:47:54Z",false,0,"Important system file deletion attempt [C0308]",1,true,https://127.0.0.1/console/rule/270/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:59Z",false,0,"Indirect Command Execution [F0445]",2,true,https://127.0.0.1/console/rule/741/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:59Z",false,0,"Injection from an unpopular process [F0415]",2,true,https://127.0.0.1/console/rule/702/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:59Z",true,0,"Injection into browser process [F0416][C]",2,true,https://127.0.0.1/console/rule/703/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:59Z",true,0,"Injection into email client process [F0417][C]",2,true,https://127.0.0.1/console/rule/704/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:59Z",true,0,"Injection into file manager process [F0418][C]",2,true,https://127.0.0.1/console/rule/705/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:59Z",true,0,"Injection into IM process [F0419][C]",2,true,https://127.0.0.1/console/rule/706/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:59Z",false,0,"Injection into LSASS process - credential dumping [F0412]",2,true,https://127.0.0.1/console/rule/694/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:59Z",true,0,"Injection into system process [F0413a][C]",2,true,https://127.0.0.1/console/rule/695/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:59Z",true,0,"Injection into system process [F0413b][C]",2,true,https://127.0.0.1/console/rule/696/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:59Z",true,0,"Injection into system process [F0413c][C]",2,true,https://127.0.0.1/console/rule/697/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:59Z",true,0,"Injection into trusted process [F0414a][C]",2,true,https://127.0.0.1/console/rule/698/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:59Z",true,0,"Injection into trusted process [F0414b][C]",2,true,https://127.0.0.1/console/rule/699/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:59Z",true,0,"Injection into trusted process [F0414c][C]",2,true,https://127.0.0.1/console/rule/700/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:59Z",true,0,"Injection into trusted process [F0414d][C]",2,true,https://127.0.0.1/console/rule/701/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:57Z",true,0,"Installutil application whitelisting bypass [E0412]",3,true,https://127.0.0.1/console/rule/556/details
+"ESET","Communication","2022-02-15T16:48:00Z",false,0,"Internal network connection from rundll32.exe started from a compromised process [F0510a]",1,true,https://127.0.0.1/console/rule/784/details
+"ESET","Communication","2022-02-15T16:47:52Z",false,0,"Internal network connection from rundll32.exe started from an unpopular process [A0504a]",1,true,https://127.0.0.1/console/rule/170/details
+"ESET","Communication","2022-02-15T16:47:52Z",false,0,"Internal network connection from wscript.exe [A0505a]",1,true,https://127.0.0.1/console/rule/172/details
+"ESET","Web browser-related","2022-02-15T16:47:52Z",false,0,"Internet Explorer Extensions registry was modified [A0700]",1,true,https://127.0.0.1/console/rule/183/details
+"ESET","Web browser-related","2022-02-15T16:47:52Z",false,0,"Internet Explorer JavaScript profiler registry was modified [A0702]",2,true,https://127.0.0.1/console/rule/185/details
+"ESET","Registry - altering security features","2022-02-15T16:47:50Z",false,0,"Internet Explorer settings modified [A0224]",2,true,https://127.0.0.1/console/rule/88/details
+"ESET","Web browser-related","2022-02-15T16:47:52Z",false,0,"Internet Explorer UrlSearchHooks registry entry was modified [A0701]",1,true,https://127.0.0.1/console/rule/184/details
+"ESET","Registry - altering security features","2022-02-15T16:47:56Z",true,0,"Internet Settings AutoConfigURL registry key has been modified [D0208]",3,true,https://127.0.0.1/console/rule/447/details
+"ESET","Registry - altering security features","2022-02-15T16:47:56Z",true,0,"Internet Settings NLA Proxy registry key has been modified [D0209]",3,true,https://127.0.0.1/console/rule/448/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:57Z",false,0,"Java Runtime executing suspicious script/command interpreter [E0462]",2,true,https://127.0.0.1/console/rule/578/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:59Z",true,0,"Kali started on WSL [F0433a]",3,true,https://127.0.0.1/console/rule/723/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:59Z",true,0,"Kali started on WSL [F0433b]",3,true,https://127.0.0.1/console/rule/724/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:54Z",false,0,"Kerberoast attempt through PowerShell [C0431]",1,true,https://127.0.0.1/console/rule/319/details
+"ESET","Experimental","2022-02-15T16:48:00Z",false,0,"Kernel module creation or modification [M0305]",2,true,https://127.0.0.1/console/rule/818/details
+"ESET","Suspicious system configuration / Removing evidence","2022-02-15T16:47:55Z",false,0,"KillDisk specific registry item has been added [C1001]",1,true,https://127.0.0.1/console/rule/390/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:48:01Z",false,0,"Known malicious PowerShell cmdlet [D0442]",3,true,https://127.0.0.1/console/rule/904/details
+"ESET","Persistence","2022-02-15T16:47:58Z",false,0,"Large Registry value set [F0102]",1,true,https://127.0.0.1/console/rule/652/details
+"ESET","Persistence","2022-02-15T16:48:00Z",false,0,"Launch Agent added [M0101]",1,true,https://127.0.0.1/console/rule/809/details
+"ESET","Experimental","2022-02-15T16:48:00Z",false,0,"Launch Daemon added [M0100]",1,true,https://127.0.0.1/console/rule/808/details
+"ESET","Persistence","2022-02-15T16:47:49Z",true,0,"Legacy AutoStart registry was modified [A0102]",3,true,https://127.0.0.1/console/rule/4/details
+"ESET","Persistence","2022-02-15T16:47:50Z",false,0,"Legacy Scheduled task file written or modified [A0138]",1,true,https://127.0.0.1/console/rule/51/details
+"ESET","Persistence","2022-02-15T16:48:01Z",false,0,"Local Account creation using PowerShell [D0105]",2,true,https://127.0.0.1/console/rule/903/details
+"ESET","Defense Evasion","2022-02-15T16:47:58Z",false,0,"Local FW Modification: Netsh.exe rule to block outound UDP ports(53,137) [E1202]",1,true,https://127.0.0.1/console/rule/647/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:56Z",false,0,"LogMeIn remote desktop application started [D0430]",2,true,https://127.0.0.1/console/rule/489/details
+"ESET","Defense Evasion","2022-02-15T16:47:57Z",false,0,"Long PowerShell script [D1203]",1,true,https://127.0.0.1/console/rule/535/details
+"ESET","Registry - altering security features","2022-02-15T16:47:58Z",false,0,"LSA registry entry was modified by a compromised process [F0207]",2,true,https://127.0.0.1/console/rule/677/details
+"ESET","Registry - altering security features","2022-02-15T16:47:50Z",false,0,"LSA registry entry was modified by an unpopular process [A0204]",2,true,https://127.0.0.1/console/rule/65/details
+"ESET","Registry - altering security features","2022-02-15T16:47:56Z",false,0,"LSA Security Support Provider modification [D0221]",2,true,https://127.0.0.1/console/rule/458/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:53Z",true,0,"LSASS loaded suspicious DLL [B0408]",3,true,https://127.0.0.1/console/rule/238/details
+"ESET","Discovery","2022-02-15T16:47:53Z",false,0,"MainWindowTitle property string in PowerShell [A1103]",1,true,https://127.0.0.1/console/rule/201/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:53Z",false,0,"Management of the services from command line [B0403]",1,true,https://127.0.0.1/console/rule/234/details
+"ESET","Persistence","2022-02-15T16:48:01Z",false,0,"Medium-size Registry value set [F0101]",1,true,https://127.0.0.1/console/rule/915/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:51Z",false,0,"Microsoft Connection Manager Profile Installer was executed [A0421]",2,true,https://127.0.0.1/console/rule/125/details
+"ESET","Defense Evasion","2022-02-15T16:47:57Z",false,0,"Microsoft Defender disabled using PowerShell [D1208]",2,true,https://127.0.0.1/console/rule/540/details
+"ESET","Persistence","2022-02-15T16:47:50Z",false,0,"Microsoft Exchange Transport Agent configuration file changed [A0142]",2,true,https://127.0.0.1/console/rule/56/details
+"ESET","Office","2022-02-15T16:47:52Z",false,0,"Microsoft Office Addins registry entry was modified by an unpopular process [A0800]",1,true,https://127.0.0.1/console/rule/186/details
+"ESET","Office","2022-02-15T16:47:57Z",true,0,"Microsoft Office application executed a suspicious macro [D0809]",3,true,https://127.0.0.1/console/rule/524/details
+"ESET","File system","2022-02-15T16:47:51Z",false,0,"Microsoft Office application has dropped a suspicious executable [A0308]",2,true,https://127.0.0.1/console/rule/99/details
+"ESET","Registry - altering security features","2022-02-15T16:47:56Z",false,0,"Microsoft Office MacroRuntimeScanScope registry changed [D0218]",2,true,https://127.0.0.1/console/rule/455/details
+"ESET","Office","2022-02-15T16:47:53Z",false,0,"Microsoft Office protected view was modified [B0801]",2,true,https://127.0.0.1/console/rule/248/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:51Z",true,0,"Microsoft Office suite executed process via WMI [A0427c]",3,true,https://127.0.0.1/console/rule/135/details
+"ESET","Office","2022-02-15T16:47:57Z",true,0,"Microsoft Office suspicious CPL execution [D0813]",3,true,https://127.0.0.1/console/rule/527/details
+"ESET","Office","2022-02-15T16:47:57Z",true,0,"Microsoft Office Task Scheduler usage [D0811]",3,true,https://127.0.0.1/console/rule/525/details
+"ESET","Office","2022-02-15T16:47:52Z",false,0,"Microsoft Office Test registry entry was modified [A0801]",2,true,https://127.0.0.1/console/rule/187/details
+"ESET","Registry - altering security features","2022-02-15T16:47:56Z",false,0,"Microsoft Office Trusted Locations registry modified [D0219]",2,true,https://127.0.0.1/console/rule/456/details
+"ESET","Office","2022-02-15T16:47:52Z",false,0,"Microsoft Office Word or Excel default template created or modified [A0803]",2,true,https://127.0.0.1/console/rule/189/details
+"ESET","Office","2022-02-15T16:47:57Z",true,0,"Microsoft Office wscript usage [D0812]",3,true,https://127.0.0.1/console/rule/526/details
+"ESET","Office","2022-02-15T16:47:57Z",false,0,"Microsoft Outlook Inbox email body extraction [D0815]",2,true,https://127.0.0.1/console/rule/528/details
+"ESET","Office","2022-02-15T16:47:57Z",false,0,"Microsoft Outlook Inbox sender address extraction [D0816]",2,true,https://127.0.0.1/console/rule/529/details
+"ESET","Office","2022-02-15T16:47:52Z",false,0,"Microsoft Outlook mapi32.dll registry was modified [A0802]",2,true,https://127.0.0.1/console/rule/188/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:59Z",false,0,"Minimized program started [F0449a]",1,true,https://127.0.0.1/console/rule/750/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:59Z",false,0,"Minimized script interpreter started [F0449b]",1,true,https://127.0.0.1/console/rule/751/details
+"ESET","Suspicious system configuration / Removing evidence","2022-02-15T16:47:53Z",false,0,"Modification of ""hosts"" file [B1002]",2,true,https://127.0.0.1/console/rule/253/details
+"ESET","Experimental","2022-02-15T16:48:00Z",false,0,"Modification of ""hosts"" file [M1005]",2,true,https://127.0.0.1/console/rule/833/details
+"ESET","Suspicious system configuration / Removing evidence","2022-02-15T16:48:00Z",true,0,"Modification of ""sudoers"" file [M1002]",3,true,https://127.0.0.1/console/rule/830/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:48:01Z",false,0,"Mouse buttons swap attempt [C0415]",1,true,https://127.0.0.1/console/rule/898/details
+"ESET","Persistence","2022-02-15T16:47:50Z",false,0,"MPR (Multiple Provider Router) registry was modified [A0129]",2,true,https://127.0.0.1/console/rule/39/details
+"ESET","Office","2022-02-15T16:47:52Z",true,0,"MS Office application has executed bitsadmin [A0805]",3,true,https://127.0.0.1/console/rule/191/details
+"ESET","Office","2022-02-15T16:47:52Z",true,0,"MS Office application has executed certutil [A0804]",3,true,https://127.0.0.1/console/rule/190/details
+"ESET","Office","2022-02-15T16:47:57Z",true,0,"MS Office application has invoked script interpreter [D0807]",3,true,https://127.0.0.1/console/rule/523/details
+"ESET","Office","2022-02-15T16:47:57Z",false,0,"MS Office application has saved executable [D0806]",2,true,https://127.0.0.1/console/rule/522/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:51Z",true,0,"MSBuild.exe from .NET Framework was executed [A0420]",3,true,https://127.0.0.1/console/rule/124/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:59Z",false,0,"Mshta with inline script executed [F0439]",2,true,https://127.0.0.1/console/rule/734/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:51Z",false,0,"Mshta.exe executed process [A0404]",1,true,https://127.0.0.1/console/rule/114/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:59Z",true,0,"mshta.exe executed under a different name [F0440][C]",2,true,https://127.0.0.1/console/rule/735/details
+"ESET","File system","2022-02-15T16:47:51Z",true,0,"Mshta.exe has dropped a suspicious executable [A0312]",3,true,https://127.0.0.1/console/rule/103/details
+"ESET","Ransomware / Filecoders","2022-02-15T16:47:55Z",true,0,"MSIL/Filecoder.Samas clue has been detected [C0601]",3,true,https://127.0.0.1/console/rule/349/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:59Z",false,0,"Native process started from WSL [F0435]",1,true,https://127.0.0.1/console/rule/726/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:51Z",false,0,"Net utility executed from suspicious ancestor [A0432]",1,true,https://127.0.0.1/console/rule/143/details
+"ESET","File system","2022-02-15T16:47:51Z",false,0,"Net utility executed with redirected output [A0314]",1,true,https://127.0.0.1/console/rule/105/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:54Z",false,0,"Net-GPPPassword in command-line [C0435]",1,true,https://127.0.0.1/console/rule/323/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:54Z",false,0,"Net-GPPPassword.exe executed [C0434]",1,true,https://127.0.0.1/console/rule/322/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:51Z",false,0,"Net1.exe not executed from Net tool [A0433]",2,true,https://127.0.0.1/console/rule/144/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:59Z",false,0,"Netsh firewall rules manipulation [F0453]",1,true,https://127.0.0.1/console/rule/758/details
+"ESET","Ransomware / Filecoders","2022-02-15T16:47:55Z",false,0,"Netwalker ransomware toolkit item file name was written [C0638]",2,true,https://127.0.0.1/console/rule/386/details
+"ESET","Communication","2022-02-15T16:48:00Z",false,0,"Network connection accepted by compromised process [F0508]",1,true,https://127.0.0.1/console/rule/781/details
+"ESET","Communication","2022-02-15T16:47:52Z",false,0,"Network connection accepted by unpopular process [A0516]",1,true,https://127.0.0.1/console/rule/182/details
+"ESET","Communication","2022-02-15T16:47:52Z",false,0,"Network connection from a system utility program [A0510]",1,true,https://127.0.0.1/console/rule/177/details
+"ESET","Communication","2022-02-15T16:47:52Z",false,0,"Network connection from All Users Application Data folder [A0508]",1,true,https://127.0.0.1/console/rule/176/details
+"ESET","Communication","2022-02-15T16:48:00Z",false,0,"Network connection from System temp folder [A0509]",1,true,https://127.0.0.1/console/rule/882/details
+"ESET","Communication","2022-02-15T16:47:52Z",false,0,"Network connection from Windows Installer (msiexec) [A0512]",1,true,https://127.0.0.1/console/rule/180/details
+"ESET","Communication","2022-02-15T16:48:00Z",false,0,"Network connection from wscript.exe started from a compromised process [F0509a]",1,true,https://127.0.0.1/console/rule/782/details
+"ESET","Communication","2022-02-15T16:48:00Z",false,0,"Network connection from wscript.exe started from a compromised process [F0509b]",2,true,https://127.0.0.1/console/rule/783/details
+"ESET","Discovery","2022-02-15T16:47:56Z",false,0,"Network sessions discovery via net.exe [C1123]",1,true,https://127.0.0.1/console/rule/442/details
+"ESET","Communication","2022-02-15T16:47:54Z",false,0,"Network share connection removal via PowerShell [C0501a]",1,true,https://127.0.0.1/console/rule/346/details
+"ESET","Communication","2022-02-15T16:47:54Z",false,0,"Network share connection removal via PowerShell [C0501b]",1,true,https://127.0.0.1/console/rule/347/details
+"ESET","Communication","2022-02-15T16:47:54Z",false,0,"Network share connection removal via PowerShell [C0501c]",1,true,https://127.0.0.1/console/rule/348/details
+"ESET","Discovery","2022-02-15T16:48:00Z",false,0,"Network Share Discovery [F1113]",1,true,https://127.0.0.1/console/rule/806/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:48:00Z",false,0,"New cron job added [M0410]",2,true,https://127.0.0.1/console/rule/823/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:54Z",false,0,"New service creation attempt via PowerShell [C0406a]",1,true,https://127.0.0.1/console/rule/295/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:54Z",false,0,"New service creation attempt via PowerShell [C0406b]",1,true,https://127.0.0.1/console/rule/296/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:54Z",false,0,"New service creation attempt via PowerShell [C0406c]",1,true,https://127.0.0.1/console/rule/297/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:54Z",false,0,"ngrok executed [C0458]",1,true,https://127.0.0.1/console/rule/344/details
+"ESET","Communication","2022-02-15T16:47:57Z",true,0,"Non-browser process makes HTTP request to a PasteBin-like site [E0504]",3,true,https://127.0.0.1/console/rule/582/details
+"ESET","Communication","2022-02-15T16:47:57Z",false,0,"Non-browser process makes HTTP request to a popular Web Service [E0501]",1,true,https://127.0.0.1/console/rule/579/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:48:00Z",false,0,"Non-System process with system process name has started [Z0400]",2,true,https://127.0.0.1/console/rule/870/details
+"ESET","Communication","2022-02-15T16:47:59Z",false,0,"Nslookup wrote a file [F0500]",2,true,https://127.0.0.1/console/rule/773/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:51Z",false,0,"Ntvdm.exe executed process [A0406]",2,true,https://127.0.0.1/console/rule/115/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:48:00Z",false,0,"Openssl decrypting data [M0409]",2,true,https://127.0.0.1/console/rule/822/details
+"ESET","Discovery","2022-02-15T16:47:56Z",false,0,"Organizational units discovery through adfind command [C1119]",1,true,https://127.0.0.1/console/rule/438/details
+"ESET","File system","2022-02-15T16:47:58Z",false,0,"Outlook macro file was dropped [F0301]",1,true,https://127.0.0.1/console/rule/679/details
+"ESET","Registry - altering security features","2022-02-15T16:47:58Z",false,0,"Outlook security registry was modified [F0201]",1,true,https://127.0.0.1/console/rule/671/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:59Z",false,0,"Outlook started with macro [F0438]",2,true,https://127.0.0.1/console/rule/733/details
+"ESET","File system","2022-02-15T16:47:51Z",true,0,"PDF reader application has dropped a suspicious executable [A0309]",3,true,https://127.0.0.1/console/rule/100/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:56Z",true,0,"PDF Reader has invoked script interpreter [D0405]",3,true,https://127.0.0.1/console/rule/473/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:56Z",true,0,"PDF Reader has saved executable [D0404]",3,true,https://127.0.0.1/console/rule/472/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:58Z",true,0,"Perl backdoor activity - child process [F0400]",3,true,https://127.0.0.1/console/rule/684/details
+"ESET","Discovery","2022-02-15T16:47:55Z",false,0,"Permission groups discovery via PowerShell [C1108a]",1,true,https://127.0.0.1/console/rule/422/details
+"ESET","Discovery","2022-02-15T16:47:55Z",false,0,"Permission groups discovery via PowerShell [C1108b]",1,true,https://127.0.0.1/console/rule/423/details
+"ESET","Discovery","2022-02-15T16:47:55Z",false,0,"Permission groups discovery via PowerShell [C1108c]",1,true,https://127.0.0.1/console/rule/424/details
+"ESET","Discovery","2022-02-15T16:48:00Z",false,0,"Permission Groups Discovery [F1102]",1,true,https://127.0.0.1/console/rule/798/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:59Z",false,0,"PHP backdoor activity - child process [F0404]",2,true,https://127.0.0.1/console/rule/688/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:51Z",false,0,"Possible command/argument confusion exploit [A0434]",1,true,https://127.0.0.1/console/rule/145/details
+"ESET","Discovery","2022-02-15T16:48:00Z",true,0,"Possible credential theft by hash dumping [M1101]",3,true,https://127.0.0.1/console/rule/834/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:54Z",false,0,"Possible data exfiltration through rclone [C0459]",1,true,https://127.0.0.1/console/rule/345/details
+"ESET","Communication","2022-02-15T16:47:57Z",true,0,"Possible Log4Shell (CVE-2021-44228) exploitation [D0532a]",3,true,https://127.0.0.1/console/rule/519/details
+"ESET","Communication","2022-02-15T16:47:57Z",true,0,"Possible Log4Shell (CVE-2021-44228) exploitation [D0532b]",3,true,https://127.0.0.1/console/rule/520/details
+"ESET","Office","2022-02-15T16:48:01Z",false,0,"Possible Microsoft Office macro usage [D0810]",1,true,https://127.0.0.1/console/rule/906/details
+"ESET","Experimental","2022-02-15T16:47:57Z",false,0,"Possible obfuscated command line [D1205]",2,true,https://127.0.0.1/console/rule/537/details
+"ESET","Persistence","2022-02-15T16:47:49Z",true,0,"Possible UAC bypass - .NET profiler registry [A0109b]",3,true,https://127.0.0.1/console/rule/18/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:52Z",false,0,"Possible UAC bypass - changepk.exe spawned process [A0439l]",2,true,https://127.0.0.1/console/rule/162/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:52Z",true,0,"Possible UAC bypass - clipup.exe spawned process [A0439a]",3,true,https://127.0.0.1/console/rule/152/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:52Z",false,0,"Possible UAC bypass - computerdefaults.exe spawned process [A0439m]",2,true,https://127.0.0.1/console/rule/163/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:52Z",false,0,"Possible UAC bypass - consent.exe spawned process [A0439e]",2,true,https://127.0.0.1/console/rule/156/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:52Z",false,0,"Possible UAC bypass - control.exe spawned process [A0439j]",2,true,https://127.0.0.1/console/rule/160/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:52Z",false,0,"Possible UAC bypass - dccw.exe spawned process [A0439h]",2,true,https://127.0.0.1/console/rule/158/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:52Z",true,0,"Possible UAC bypass - dismhost.exe spawned process [A0439b]",3,true,https://127.0.0.1/console/rule/153/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:52Z",true,0,"Possible UAC bypass - DLL Loaded [A0440]",3,true,https://127.0.0.1/console/rule/164/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:56Z",true,0,"Possible UAC bypass - DLL Loaded [D0435]",3,true,https://127.0.0.1/console/rule/494/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:48:00Z",false,0,"Possible UAC bypass - dllhost.exe spawned process [A0439f]",1,true,https://127.0.0.1/console/rule/878/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:52Z",false,0,"Possible UAC bypass - mmc.exe spawned process [A0439g]",2,true,https://127.0.0.1/console/rule/157/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:52Z",false,0,"Possible UAC bypass - msconfig.exe spawned process [A0439k]",2,true,https://127.0.0.1/console/rule/161/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:52Z",false,0,"Possible UAC bypass - osk.exe spawned process [A0439i]",2,true,https://127.0.0.1/console/rule/159/details
+"ESET","Registry - altering security features","2022-02-15T16:47:50Z",true,0,"Possible UAC bypass - registry shell associations [A0225]",3,true,https://127.0.0.1/console/rule/89/details
+"ESET","Registry - altering security features","2022-02-15T16:47:50Z",true,0,"Possible UAC bypass - windir path changed [A0226]",3,true,https://127.0.0.1/console/rule/90/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:52Z",true,0,"Possible UAC bypass - winsat.exe spawned process [A0439c]",3,true,https://127.0.0.1/console/rule/154/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:52Z",true,0,"Possible UAC bypass - wsreset spawned process [A0439d]",3,true,https://127.0.0.1/console/rule/155/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:56Z",true,0,"Possible UAC bypass [D0436]",3,true,https://127.0.0.1/console/rule/495/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:56Z",false,0,"Possible Windows Vault enumeration using vaultcmd [D0441]",2,true,https://127.0.0.1/console/rule/500/details
+"ESET","Discovery","2022-02-15T16:47:58Z",false,0,"Potential AD Group enumeration via PowerShell ADSISearcher/.NET [E1122]",1,true,https://127.0.0.1/console/rule/641/details
+"ESET","Communication","2022-02-15T16:47:59Z",false,0,"Potential Cobalt Strike DNS request [F0501]",2,true,https://127.0.0.1/console/rule/774/details
+"ESET","File system","2022-02-15T16:47:57Z",false,0,"Potential Collection of data from local system via PowerShell (copying) [E0309]",2,true,https://127.0.0.1/console/rule/551/details
+"ESET","File System","2022-02-15T16:47:57Z",false,0,"Potential Collection of data from local system via WMI file classes [E0307]",2,true,https://127.0.0.1/console/rule/549/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:59Z",false,0,"Potential credential dumping - Generic [F0436a]",2,true,https://127.0.0.1/console/rule/727/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:59Z",false,0,"Potential credential dumping - Generic [F0436b]",2,true,https://127.0.0.1/console/rule/728/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:59Z",false,0,"Potential credential dumping - Generic [F0436c]",2,true,https://127.0.0.1/console/rule/729/details
+"ESET","Registry - altering security features","2022-02-15T16:47:57Z",true,0,"Potential Credential Dumping - IFEO SilentProcessExit registry key set for Lsass.exe [E0201]",3,true,https://127.0.0.1/console/rule/542/details
+"ESET","File System","2022-02-15T16:47:57Z",true,0,"Potential Credential Dumping - lsass*.dmp file has been written to disk [E0305]",3,true,https://127.0.0.1/console/rule/547/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:59Z",true,0,"Potential credential dumping - Mimikatz [F0437a][C]",3,true,https://127.0.0.1/console/rule/730/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:59Z",true,0,"Potential credential dumping - Mimikatz [F0437b][C]",3,true,https://127.0.0.1/console/rule/731/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:59Z",false,0,"Potential credential dumping - Mimikatz [F0437c]",2,true,https://127.0.0.1/console/rule/732/details
+"ESET","Defense Evasion","2022-02-15T16:47:58Z",false,0,"Potential Defense Evasion - A service has been disabled via startup registry setting [E1201]",1,true,https://127.0.0.1/console/rule/646/details
+"ESET","Defense Evasion","2022-02-15T16:47:58Z",true,0,"Potential Defense Evasion - Security service disabled via registry setting [E1203]",3,true,https://127.0.0.1/console/rule/648/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:57Z",false,0,"Potential Defense Evasion - Security service has been interfered with (sc.exe/net.exe start,stop) [E0453]",2,true,https://127.0.0.1/console/rule/576/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:57Z",false,0,"Potential Defense Evasion - Security service has been remotely interfered with (sc.exe start,stop) [E0452]",2,true,https://127.0.0.1/console/rule/575/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:59Z",false,0,"Potential DLL search order hijacking - creation [F0450c]",2,true,https://127.0.0.1/console/rule/754/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:59Z",false,0,"Potential DLL search order hijacking - untrusted system libs [F0450a]",2,true,https://127.0.0.1/console/rule/752/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:59Z",false,0,"Potential DLL search order hijacking - untrusted system libs [F0450b]",2,true,https://127.0.0.1/console/rule/753/details
+"ESET","File system","2022-02-15T16:47:57Z",false,0,"Potential Email Collection: Local Email Collection via PowerShell (copying) [E0306]",2,true,https://127.0.0.1/console/rule/548/details
+"ESET","File system","2022-02-15T16:47:57Z",false,0,"Potential Email Collection: Local Email Collection via WMI file classes [E0308]",2,true,https://127.0.0.1/console/rule/550/details
+"ESET","Communication","2022-02-15T16:47:58Z",true,0,"Potential Exfiltration Attempt - Mounting Cloud Drive via Net Use command [E0550]",3,true,https://127.0.0.1/console/rule/607/details
+"ESET","Discovery","2022-02-15T16:47:58Z",false,0,"Potential FSUtil disk space recon performed [E1110]",1,true,https://127.0.0.1/console/rule/635/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:57Z",false,0,"Potential Java Runtime exploitation [E0461]",2,true,https://127.0.0.1/console/rule/577/details
+"ESET","Remote Access","2022-02-15T16:47:58Z",true,0,"Potential Lateral Movement - Remote Scheduled Task Created (schtasks.exe) [E0901]",3,true,https://127.0.0.1/console/rule/621/details
+"ESET","Remote Access","2022-02-15T16:47:58Z",true,0,"Potential Lateral Movement - Remote Scheduled Task using ComObjects (via PowerShell) Created [E0902]",3,true,https://127.0.0.1/console/rule/622/details
+"ESET","Remote access","2022-02-15T16:47:58Z",true,0,"Potential Lateral Movement - Remote WINRS activity detected [E0903]",3,true,https://127.0.0.1/console/rule/623/details
+"ESET","Suspicious system configuration / Removing evidence","2022-02-15T16:48:00Z",false,0,"Potential Pass-the-Hash user login [F1002]",2,true,https://127.0.0.1/console/rule/795/details
+"ESET","Discovery","2022-02-15T16:47:58Z",false,0,"Potential Peripheral Device Discovery - Devcon.exe discovery activity [E1117]",1,true,https://127.0.0.1/console/rule/636/details
+"ESET","Discovery","2022-02-15T16:48:01Z",false,0,"Potential Peripheral Device Discovery - FSutil drive discovery [E1114]",1,true,https://127.0.0.1/console/rule/912/details
+"ESET","Discovery","2022-02-15T16:48:01Z",false,0,"Potential Peripheral Device Discovery - PNPUtil queried for connected devices [E1113]",1,true,https://127.0.0.1/console/rule/911/details
+"ESET","Discovery","2022-02-15T16:48:01Z",false,0,"Potential Peripheral Device Discovery - PowerShell monitoring device change and PnP events [E1116]",1,true,https://127.0.0.1/console/rule/914/details
+"ESET","Discovery","2022-02-15T16:48:01Z",false,0,"Potential Peripheral Device Discovery - PowerShell queried Plug and Play devices via Get-PnpDevice [E1115]",1,true,https://127.0.0.1/console/rule/913/details
+"ESET","Discovery","2022-02-15T16:48:01Z",false,0,"Potential Peripheral Device Discovery - Reg.exe querying Enum registry tree [E1111]",1,true,https://127.0.0.1/console/rule/909/details
+"ESET","Discovery","2022-02-15T16:48:01Z",false,0,"Potential Peripheral Device Discovery via WMI classes [E1112]",1,true,https://127.0.0.1/console/rule/910/details
+"ESET","Persistence","2022-02-15T16:47:57Z",true,0,"Potential Persistence Installation - IFEO SilentProcessExit registry key altered [E0101]",3,true,https://127.0.0.1/console/rule/541/details
+"ESET","Discovery","2022-02-15T16:47:58Z",false,0,"Potential Remote Host enumeration via PowerShell ADSISearcher/.NET [E1123]",1,true,https://127.0.0.1/console/rule/642/details
+"ESET","Discovery","2022-02-15T16:47:58Z",false,0,"Potential security service discovery via PowerShell (cmdlet) [TEST][E1125]",2,true,https://127.0.0.1/console/rule/644/details
+"ESET","Discovery","2022-02-15T16:47:58Z",false,0,"Potential security service registry key discovery via PowerShell [E1126]",2,true,https://127.0.0.1/console/rule/645/details
+"ESET","Discovery","2022-02-15T16:47:58Z",false,0,"Potential User Account enumeration via PowerShell ADSISearcher/.NET [E1124]",1,true,https://127.0.0.1/console/rule/643/details
+"ESET","Discovery","2022-02-15T16:47:58Z",false,0,"Potential User SPN enumeration via PowerShell ADSISearcher/.NET [E1121]",2,true,https://127.0.0.1/console/rule/640/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:52Z",false,0,"PowerShell created named pipe [A0435b]",1,true,https://127.0.0.1/console/rule/147/details
+"ESET","Web browser-related","2022-02-15T16:47:57Z",true,0,"Powershell credential vault dumping [D0701]",3,true,https://127.0.0.1/console/rule/521/details
+"ESET","Defense Evasion","2022-02-15T16:47:57Z",false,0,"PowerShell engine dll loaded in non-PowerShell process [D1206]",2,true,https://127.0.0.1/console/rule/538/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:51Z",false,0,"PowerShell executed process via WMI [A0427a]",1,true,https://127.0.0.1/console/rule/133/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:56Z",true,0,"PowerShell executed under a different name [D0411][C]",3,true,https://127.0.0.1/console/rule/477/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:56Z",false,0,"PowerShell executed with long cmdline [D0415]",2,true,https://127.0.0.1/console/rule/481/details
+"ESET","File system","2022-02-15T16:47:51Z",false,0,"PowerShell has dropped a suspicious executable [A0306]",2,true,https://127.0.0.1/console/rule/97/details
+"ESET","Registry - altering security features","2022-02-15T16:47:50Z",false,0,"PowerShell module logging disabled [A0206]",2,true,https://127.0.0.1/console/rule/68/details
+"ESET","Persistence","2022-02-15T16:47:49Z",false,0,"PowerShell profile file for all users on all hosts was modified [A0117]",2,true,https://127.0.0.1/console/rule/26/details
+"ESET","Persistence","2022-02-15T16:47:49Z",false,0,"PowerShell profile file for all users on the current host was modified [A0118]",2,true,https://127.0.0.1/console/rule/27/details
+"ESET","Persistence","2022-02-15T16:47:49Z",false,0,"PowerShell profile file for the current user on the current host was modified [A0120]",2,true,https://127.0.0.1/console/rule/29/details
+"ESET","Persistence","2022-02-15T16:47:49Z",false,0,"PowerShell profile for the current user on all hosts was modified [A0119]",2,true,https://127.0.0.1/console/rule/28/details
+"ESET","Discovery","2022-02-15T16:47:53Z",false,0,"PowerShell queried files/folders information via WMI [A1107c]",1,true,https://127.0.0.1/console/rule/213/details
+"ESET","Discovery","2022-02-15T16:48:00Z",false,0,"PowerShell queried network configuration information via WMI [A1109c]",1,true,https://127.0.0.1/console/rule/887/details
+"ESET","Discovery","2022-02-15T16:48:00Z",false,0,"PowerShell queried network share/remote systems information via WMI [A1108c]",1,true,https://127.0.0.1/console/rule/885/details
+"ESET","Discovery","2022-02-15T16:48:00Z",false,0,"PowerShell queried processes information via WMI [A1110c]",1,true,https://127.0.0.1/console/rule/889/details
+"ESET","Discovery","2022-02-15T16:48:00Z",false,0,"PowerShell queried system information via WMI [A1111c]",1,true,https://127.0.0.1/console/rule/891/details
+"ESET","Discovery","2022-02-15T16:47:53Z",false,0,"PowerShell queried system owner/user information via WMI [A1106c]",1,true,https://127.0.0.1/console/rule/209/details
+"ESET","Discovery","2022-02-15T16:47:53Z",false,0,"PowerShell queried users/groups information via WMI [A1105c]",1,true,https://127.0.0.1/console/rule/205/details
+"ESET","Registry - altering security features","2022-02-15T16:47:50Z",false,0,"PowerShell registry shell path modified [A0208]",2,true,https://127.0.0.1/console/rule/70/details
+"ESET","Registry - altering security features","2022-02-15T16:47:50Z",false,0,"PowerShell script block logging disabled [A0207]",2,true,https://127.0.0.1/console/rule/69/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:54Z",false,0,"PowerShell script tries to modify or delete shadow copies [C0401c]",2,true,https://127.0.0.1/console/rule/288/details
+"ESET","Defense Evasion","2022-02-15T16:47:53Z",true,0,"PowerShell shellcode APIs [A1200]",3,true,https://127.0.0.1/console/rule/221/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:56Z",false,0,"PowerShell suspicious activity executed - EncodedCommand [D0414]",2,true,https://127.0.0.1/console/rule/480/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:56Z",true,0,"PowerShell suspicious activity executed [D0412][C]",3,true,https://127.0.0.1/console/rule/478/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:56Z",false,0,"PowerShell suspicious activity executed [D0413]",2,true,https://127.0.0.1/console/rule/479/details
+"ESET","Registry - altering security features","2022-02-15T16:47:50Z",false,0,"PowerShell transcription disabled [A0209]",2,true,https://127.0.0.1/console/rule/71/details
+"ESET","Persistence","2022-02-15T16:47:50Z",false,0,"PowerShell with command line Microsoft Exchange Transport Agent install [A0143]",2,true,https://127.0.0.1/console/rule/57/details
+"ESET","Communication","2022-02-15T16:47:52Z",false,0,"Powershell.exe creates an external network connection [A0502b]",2,true,https://127.0.0.1/console/rule/168/details
+"ESET","Communication","2022-02-15T16:48:00Z",false,0,"Powershell.exe creates an internal network connection [A0502a]",1,true,https://127.0.0.1/console/rule/881/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:51Z",false,0,"Powershell.exe executed unpopular process [A0408]",1,true,https://127.0.0.1/console/rule/116/details
+"ESET","Discovery","2022-02-15T16:47:53Z",false,0,"PowerView cmdlet name in AMSI [A1104]",2,true,https://127.0.0.1/console/rule/202/details
+"ESET","Persistence","2022-02-15T16:47:50Z",true,0,"Print processor registry was modified by suspicious process [A0146]",3,true,https://127.0.0.1/console/rule/60/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:51Z",true,0,"Process ""explorer.exe"" was executed from a non-%WINDIR% folder [A0409]",3,true,https://127.0.0.1/console/rule/117/details
+"ESET","Communication","2022-02-15T16:48:01Z",false,0,"Process communicating over potentially Suspicious Protocol - detected RDP communication [E0516]",1,true,https://127.0.0.1/console/rule/908/details
+"ESET","Communication","2022-02-15T16:47:58Z",false,0,"Process communicating over potentially Suspicious Protocol - detected SSH communication [E0529]",2,true,https://127.0.0.1/console/rule/597/details
+"ESET","Communication","2022-02-15T16:47:57Z",false,0,"Process communicating over potentially Suspicious Protocol - detected VNC communication [E0525]",2,true,https://127.0.0.1/console/rule/593/details
+"ESET","Communication","2022-02-15T16:47:57Z",false,0,"Process communicating over Suspicious Protocol - detected BitTorrent communication [E0512]",2,true,https://127.0.0.1/console/rule/587/details
+"ESET","Communication","2022-02-15T16:48:01Z",false,0,"Process communicating over Suspicious Protocol - detected FTP communication [E0508]",1,true,https://127.0.0.1/console/rule/907/details
+"ESET","Communication","2022-02-15T16:47:58Z",false,0,"Process communicating over Suspicious Protocol - detected IMAP communication [E0533]",2,true,https://127.0.0.1/console/rule/599/details
+"ESET","Communication","2022-02-15T16:47:57Z",true,0,"Process communicating over Suspicious Protocol - detected IRC communication [E0514]",3,true,https://127.0.0.1/console/rule/588/details
+"ESET","Communication","2022-02-15T16:47:58Z",false,0,"Process communicating over Suspicious Protocol - detected POP3 communication [E0534]",2,true,https://127.0.0.1/console/rule/600/details
+"ESET","Communication","2022-02-15T16:47:58Z",false,0,"Process communicating over Suspicious Protocol - detected SIP communication [E0537]",2,true,https://127.0.0.1/console/rule/601/details
+"ESET","Communication","2022-02-15T16:47:57Z",true,0,"Process communicating over Suspicious Protocol - detected TOR communication [E0510]",3,true,https://127.0.0.1/console/rule/586/details
+"ESET","Communication","2022-02-15T16:47:57Z",false,0,"Process communicating over Suspicious Protocol - SMTP communication, unpopular process [E0527]",2,true,https://127.0.0.1/console/rule/595/details
+"ESET","File system","2022-02-15T16:47:56Z",false,0,"Process crash\hang report has been added (some application crashed\hanged) [D0322]",2,true,https://127.0.0.1/console/rule/459/details
+"ESET","Registry - altering security features","2022-02-15T16:47:50Z",false,0,"Process creation command line audit disabled [A0200]",1,true,https://127.0.0.1/console/rule/61/details
+"ESET","Communication","2022-02-15T16:47:52Z",false,0,"Process cscript.exe creates an external network connection [A0500b]",2,true,https://127.0.0.1/console/rule/166/details
+"ESET","Communication","2022-02-15T16:47:52Z",false,0,"Process cscript.exe creates an internal network connection [A0500a]",1,true,https://127.0.0.1/console/rule/165/details
+"ESET","Discovery","2022-02-15T16:47:55Z",false,0,"Process discovery via PowerShell [C1107a]",1,true,https://127.0.0.1/console/rule/419/details
+"ESET","Discovery","2022-02-15T16:47:55Z",false,0,"Process discovery via PowerShell [C1107b]",1,true,https://127.0.0.1/console/rule/420/details
+"ESET","Discovery","2022-02-15T16:47:55Z",false,0,"Process discovery via PowerShell [C1107c]",1,true,https://127.0.0.1/console/rule/421/details
+"ESET","Discovery","2022-02-15T16:48:01Z",false,0,"Process Discovery [F1103]",1,true,https://127.0.0.1/console/rule/918/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:51Z",false,0,"Process executed from ADS [A0417]",2,true,https://127.0.0.1/console/rule/122/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:57Z",false,0,"Process execution from suspicious location (execution flow hijacking) [E0422]",2,true,https://127.0.0.1/console/rule/564/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:59Z",false,0,"Process from SysWOW64 started by compromised process [F0460]",1,true,https://127.0.0.1/console/rule/765/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:51Z",false,0,"Process from SysWOW64 started by unpopular process [A0416]",1,true,https://127.0.0.1/console/rule/121/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:48:00Z",false,0,"Process has started from a removable drive [Z0401]",1,true,https://127.0.0.1/console/rule/871/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:51Z",false,0,"Process has started from Recycle Bin folder [A0412]",2,true,https://127.0.0.1/console/rule/118/details
+"ESET","File system","2022-02-15T16:47:57Z",false,0,"Process has written a suspicious file to Recycle Bin folder [E0304]",2,true,https://127.0.0.1/console/rule/546/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:57Z",true,0,"Process loaded DLL from Recycle Bin folder [E0402]",3,true,https://127.0.0.1/console/rule/553/details
+"ESET","Communication","2022-02-15T16:47:52Z",false,0,"Process ntvdm.exe creates a network connection [A0501]",2,true,https://127.0.0.1/console/rule/167/details
+"ESET","Discovery","2022-02-15T16:47:58Z",false,0,"Process reading sensitive files - Browser-based Credential Stores [E1108]",2,true,https://127.0.0.1/console/rule/633/details
+"ESET","Discovery","2022-02-15T16:47:58Z",false,0,"Process reading sensitive files - Credential Manager configs [E1104]",2,true,https://127.0.0.1/console/rule/629/details
+"ESET","Discovery","2022-02-15T16:47:58Z",false,0,"Process reading sensitive files - Database-based Credential Stores [E1107]",2,true,https://127.0.0.1/console/rule/632/details
+"ESET","Discovery","2022-02-15T16:47:58Z",false,0,"Process reading sensitive files - Development tool-based Credential Stores [E1109]",2,true,https://127.0.0.1/console/rule/634/details
+"ESET","Discovery","2022-02-15T16:47:58Z",true,0,"Process reading sensitive files - EMail Client-based Credential Stores [E1105]",3,true,https://127.0.0.1/console/rule/630/details
+"ESET","Discovery","2022-02-15T16:47:58Z",false,0,"Process reading sensitive files - FTP-based Credential Stores [E1102]",2,true,https://127.0.0.1/console/rule/627/details
+"ESET","Discovery","2022-02-15T16:47:58Z",false,0,"Process reading sensitive files - Remote Assistance Tool-based Credential Stores [E1106]",2,true,https://127.0.0.1/console/rule/631/details
+"ESET","Discovery","2022-02-15T16:47:58Z",false,0,"Process reading sensitive files - Windows Credential Stores [E1103]",2,true,https://127.0.0.1/console/rule/628/details
+"ESET","Communication","2022-02-15T16:47:52Z",false,0,"Process regsvr32.exe creates a network connection [A0503]",2,true,https://127.0.0.1/console/rule/169/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:59Z",false,0,"Process started from DCOM Office app [F0452]",1,true,https://127.0.0.1/console/rule/757/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:48:00Z",false,0,"Process started from desktop [Z0405]",1,true,https://127.0.0.1/console/rule/875/details
+"ESET","Persistence","2022-02-15T16:47:58Z",false,0,"Process started from Startup Folder [F0105]",1,true,https://127.0.0.1/console/rule/655/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:51Z",false,0,"Process was executed from remote computer via WMI [A0429]",2,true,https://127.0.0.1/console/rule/138/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:48:00Z",true,0,"Process with a suspicious extension has started [Z0406]",3,true,https://127.0.0.1/console/rule/876/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:51Z",true,0,"Process with mimikatz-like command line parameters executed [A0422]",3,true,https://127.0.0.1/console/rule/126/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:51Z",true,0,"Process with mimikatz-like executable metadata executed [A0423]",3,true,https://127.0.0.1/console/rule/127/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:57Z",false,0,"Process with Recycle Bin path in command line [E0401]",2,true,https://127.0.0.1/console/rule/552/details
+"ESET","Persistance","2022-02-15T16:47:53Z",false,0,"Process writes suspicious link file [C0101]",2,true,https://127.0.0.1/console/rule/257/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:53Z",false,0,"Processes killing from command line [B0401]",1,true,https://127.0.0.1/console/rule/232/details
+"ESET","Registry - altering security features","2022-02-15T16:47:58Z",false,0,"PromptOnSecureDesktop modified by compromised process [F0206]",1,true,https://127.0.0.1/console/rule/676/details
+"ESET","Registry - altering security features","2022-02-15T16:47:50Z",false,0,"PromptOnSecureDesktop modified by unpopular process [A0218]",1,true,https://127.0.0.1/console/rule/79/details
+"ESET","Communication","2022-02-15T16:47:57Z",false,0,"Protocol Mismatch - detected FTP communication over non-standard port [E0509]",2,true,https://127.0.0.1/console/rule/585/details
+"ESET","Communication","2022-02-15T16:47:57Z",true,0,"Protocol Mismatch - detected RDP communication over non-standard port [E0517]",3,true,https://127.0.0.1/console/rule/589/details
+"ESET","Communication","2022-02-15T16:47:57Z",false,0,"Protocol Mismatch - detected SMTP communication over non-standard port [E0526]",2,true,https://127.0.0.1/console/rule/594/details
+"ESET","Communication","2022-02-15T16:47:57Z",false,0,"Protocol Mismatch - detected SSH communication over non-standard port [E0528]",2,true,https://127.0.0.1/console/rule/596/details
+"ESET","Communication","2022-02-15T16:47:57Z",false,0,"Protocol Mismatch - detected VNC communication over non-standard port [E0524]",2,true,https://127.0.0.1/console/rule/592/details
+"ESET","Communication","2022-02-15T16:47:57Z",false,0,"Protocol Mismatch - HTTP communication, non-standard port, unpopular process [E0520]",2,true,https://127.0.0.1/console/rule/590/details
+"ESET","Communication","2022-02-15T16:47:57Z",false,0,"Protocol Mismatch - SSL communication, non-standard port, unpopular process [E0521]",2,true,https://127.0.0.1/console/rule/591/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:59Z",false,0,"Proxy execution - Regsvcs/Regasm [F0457]",1,true,https://127.0.0.1/console/rule/761/details
+"ESET","Remote desktop / Remote access","2022-02-15T16:47:53Z",true,0,"PsExec named pipe created [A0904]",3,true,https://127.0.0.1/console/rule/196/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:48:01Z",false,0,"Putty suite app executed [C0455]",1,true,https://127.0.0.1/console/rule/899/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:58Z",true,0,"Python backdoor activity - child process [F0401]",3,true,https://127.0.0.1/console/rule/685/details
+"ESET","Special/system rules","2022-02-15T16:47:56Z",true,0,"Python script executed [C9901]",2,true,https://127.0.0.1/console/rule/443/details
+"ESET","Discovery","2022-02-15T16:48:01Z",false,0,"Query Registry - local [F1104]",1,true,https://127.0.0.1/console/rule/919/details
+"ESET","Discovery","2022-02-15T16:48:00Z",false,0,"Query Registry - remote [F1105]",1,true,https://127.0.0.1/console/rule/799/details
+"ESET","Discovery","2022-02-15T16:47:55Z",false,0,"Query registry via PowerShell [C1102a]",1,true,https://127.0.0.1/console/rule/404/details
+"ESET","Discovery","2022-02-15T16:47:55Z",false,0,"Query registry via PowerShell [C1102b]",1,true,https://127.0.0.1/console/rule/405/details
+"ESET","Discovery","2022-02-15T16:47:55Z",false,0,"Query registry via PowerShell [C1102c]",1,true,https://127.0.0.1/console/rule/406/details
+"ESET","Communication","2022-02-15T16:47:53Z",false,0,"Querying IP info [B0504]",2,true,https://127.0.0.1/console/rule/240/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:54Z",false,0,"Querying run registry item through command [C0443]",1,true,https://127.0.0.1/console/rule/331/details
+"ESET","Remote access","2022-02-15T16:47:57Z",false,0,"Quick Assist incoming connection [D0900]",2,true,https://127.0.0.1/console/rule/530/details
+"ESET","Ransomware / Filecoders","2022-02-15T16:47:55Z",true,0,"Ransomnote behavioral detection - filecoders [C0619]",3,true,https://127.0.0.1/console/rule/367/details
+"ESET","Ransomware / Filecoders","2022-02-15T16:47:55Z",true,0,"Ransomnote file was written - filecoders [C0611]",3,true,https://127.0.0.1/console/rule/359/details
+"ESET","Ransomware / Filecoders","2022-02-15T16:47:53Z",true,0,"RAR encrypts and deletes files [B0601]",3,true,https://127.0.0.1/console/rule/243/details
+"ESET","File system","2022-02-15T16:48:01Z",false,0,"rclone.exe executed [C0324]",1,true,https://127.0.0.1/console/rule/895/details
+"ESET","File System","2022-02-15T16:47:56Z",true,0,"Reading sensitive files from shadow volume [D0331]",3,true,https://127.0.0.1/console/rule/468/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:54Z",false,0,"reagentc.exe executed [C0418]",1,true,https://127.0.0.1/console/rule/307/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:57Z",true,0,"Regasm.exe suspicious child process [E0413]",3,true,https://127.0.0.1/console/rule/557/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:56Z",true,0,"Registry dump of SAM or LSA Secrets [D0446]",3,true,https://127.0.0.1/console/rule/504/details
+"ESET","Suspicious system configuration / Removing evidence","2022-02-15T16:47:55Z",false,0,"Registry key set to hide user account on login screen [C1011]",1,true,https://127.0.0.1/console/rule/400/details
+"ESET","Registry - altering security features","2022-02-15T16:47:50Z",true,0,"Registry Tools (regedit.exe) were disabled [A0201a]",3,true,https://127.0.0.1/console/rule/62/details
+"ESET","Registry - altering security features","2022-02-15T16:47:50Z",false,0,"Registry Tools (regedit.exe) were enabled [A0201b]",1,true,https://127.0.0.1/console/rule/63/details
+"ESET","File system","2022-02-15T16:47:51Z",true,0,"Regsvr32 has dropped a suspicious executable [A0311]",3,true,https://127.0.0.1/console/rule/102/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:51Z",false,0,"Regsvr32.exe executed script process [A0413]",2,true,https://127.0.0.1/console/rule/119/details
+"ESET","Remote desktop / Remote access","2022-02-15T16:47:52Z",false,0,"Remote Desktop ClxDllPath registry modified [A0900]",2,true,https://127.0.0.1/console/rule/192/details
+"ESET","Communication","2022-02-15T16:47:57Z",false,0,"Remote Desktop connection from external IP range [D0522]",2,true,https://127.0.0.1/console/rule/508/details
+"ESET","Remote desktop / Remote access","2022-02-15T16:47:52Z",false,0,"Remote Desktop listening port was modified [A0903]",2,true,https://127.0.0.1/console/rule/195/details
+"ESET","Remote desktop / Remote access","2022-02-15T16:47:52Z",false,0,"Remote Desktop TestDVCPlugin registry modified [A0901]",2,true,https://127.0.0.1/console/rule/193/details
+"ESET","Remote desktop / Remote access","2022-02-15T16:48:00Z",true,0,"Remote execution using PAExec [F0901]",3,true,https://127.0.0.1/console/rule/792/details
+"ESET","Remote desktop / Remote access","2022-02-15T16:47:53Z",true,0,"Remote execution using PsExec [B0901]",3,true,https://127.0.0.1/console/rule/249/details
+"ESET","Remote desktop / Remote access","2022-02-15T16:47:53Z",true,0,"Remote execution using renamed PsExec service [A0905]",3,true,https://127.0.0.1/console/rule/197/details
+"ESET","Discovery","2022-02-15T16:47:58Z",false,0,"Remote host discovery via WMI (LDAP namespace) [E1118]",1,true,https://127.0.0.1/console/rule/637/details
+"ESET","Discovery","2022-02-15T16:47:56Z",false,0,"Remote host enumeration via Net/ADFind [C1115]",1,true,https://127.0.0.1/console/rule/433/details
+"ESET","Registry - altering security features","2022-02-15T16:47:58Z",false,0,"Remote Reg.exe command executed [E1204]",2,true,https://127.0.0.1/console/rule/649/details
+"ESET","Registry - altering security features","2022-02-15T16:47:58Z",false,0,"Remote Security Service Interaction via Reg.exe [E1205]",2,true,https://127.0.0.1/console/rule/650/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:57Z",false,0,"Remote Service Control command has been executed (sc.exe) [E0450]",1,true,https://127.0.0.1/console/rule/573/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:57Z",false,0,"Remote Service Stopped or Started (sc.exe) [E0451]",1,true,https://127.0.0.1/console/rule/574/details
+"ESET","Discovery","2022-02-15T16:47:55Z",false,0,"Remote system discovery via PowerShell [C1104a]",1,true,https://127.0.0.1/console/rule/410/details
+"ESET","Discovery","2022-02-15T16:47:55Z",false,0,"Remote system discovery via PowerShell [C1104b]",1,true,https://127.0.0.1/console/rule/411/details
+"ESET","Discovery","2022-02-15T16:47:55Z",false,0,"Remote system discovery via PowerShell [C1104c]",1,true,https://127.0.0.1/console/rule/412/details
+"ESET","Discovery","2022-02-15T16:48:00Z",false,0,"Remote System Discovery [F1106]",1,true,https://127.0.0.1/console/rule/800/details
+"ESET","Remote desktop / Remote access","2022-02-15T16:48:00Z",false,0,"Remote user login [F0900]",1,true,https://127.0.0.1/console/rule/791/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:53Z",false,0,"Reputable process loaded suspicious DLL [B0406b]",2,true,https://127.0.0.1/console/rule/237/details
+"ESET","Discovery","2022-02-15T16:48:01Z",false,0,"Retrieving hardware serial number [M1103]",1,true,https://127.0.0.1/console/rule/926/details
+"ESET","Persistence","2022-02-15T16:47:50Z",false,0,"Rover.dll file modified [A0122]",2,true,https://127.0.0.1/console/rule/31/details
+"ESET","Persistence","2022-02-15T16:47:49Z",false,0,"Rover.dll registry was modified [A0121]",2,true,https://127.0.0.1/console/rule/30/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:54Z",false,0,"rubeus in command-line [C0430]",1,true,https://127.0.0.1/console/rule/318/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:54Z",false,0,"rubeus.exe executed [C0428]",1,true,https://127.0.0.1/console/rule/316/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:54Z",false,0,"rubeus.exe hashes dump for *roast attempt [C0429]",1,true,https://127.0.0.1/console/rule/317/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:56Z",true,0,"rundll32 executed under a different name [D0408][C]",3,true,https://127.0.0.1/console/rule/474/details
+"ESET","File system","2022-02-15T16:47:51Z",false,0,"Rundll32 has dropped a suspicious executable [A0310]",2,true,https://127.0.0.1/console/rule/101/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:59Z",false,0,"Rundll32 loaded DLL from suspicious location [F0410]",1,true,https://127.0.0.1/console/rule/692/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:59Z",false,0,"Rundll32 loaded DLL with unusual extension [F0461]",1,true,https://127.0.0.1/console/rule/766/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:59Z",false,0,"Rundll32.exe executed javascript [F0405]",2,true,https://127.0.0.1/console/rule/689/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:59Z",false,0,"Rundll32.exe process execution via DLL [F0406]",2,true,https://127.0.0.1/console/rule/690/details
+"ESET","Persistence","2022-02-15T16:47:50Z",false,0,"RunServices AutoStart registry was modified [A0123]",2,true,https://127.0.0.1/console/rule/32/details
+"ESET","Ransomware / Filecoders","2022-02-15T16:47:55Z",false,0,"Ryuk ransomware wake on lan command line parameter [C0640]",2,true,https://127.0.0.1/console/rule/388/details
+"ESET","Persistence","2022-02-15T16:47:50Z",false,0,"SafeBoot AlternateShell registry was modified [A0124]",2,true,https://127.0.0.1/console/rule/33/details
+"ESET","File system","2022-02-15T16:48:00Z",false,0,"Saving script file [Z0301]",1,true,https://127.0.0.1/console/rule/869/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:59Z",false,0,"Scheduled restart executed [F0462d]",1,true,https://127.0.0.1/console/rule/770/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:59Z",false,0,"Scheduled script task started [F0442]",1,true,https://127.0.0.1/console/rule/737/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:59Z",false,0,"Scheduled shut down executed [F0462c]",1,true,https://127.0.0.1/console/rule/769/details
+"ESET","Persistence","2022-02-15T16:47:58Z",false,0,"Scheduling script task [F0109]",2,true,https://127.0.0.1/console/rule/659/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:59Z",false,0,"Scheduling shutdown task [F0463]",1,true,https://127.0.0.1/console/rule/772/details
+"ESET","Persistence","2022-02-15T16:47:58Z",false,0,"Scheduling suspicious task [F0107]",2,true,https://127.0.0.1/console/rule/657/details
+"ESET","Persistence","2022-02-15T16:47:53Z",false,0,"Scheduling task on system start/login [B0101]",1,true,https://127.0.0.1/console/rule/222/details
+"ESET","Persistence","2022-02-15T16:48:00Z",false,0,"Scheduling with AT command [K0101]",1,true,https://127.0.0.1/console/rule/807/details
+"ESET","File system","2022-02-15T16:47:51Z",false,0,"Scp.exe has dropped an executable [A0318]",1,true,https://127.0.0.1/console/rule/109/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:52Z",false,0,"Script interpreter created named pipe [A0435c]",2,true,https://127.0.0.1/console/rule/148/details
+"ESET","Persistence","2022-02-15T16:47:58Z",false,0,"Script interpreter modified file in %startup% folder [F0108]",2,true,https://127.0.0.1/console/rule/658/details
+"ESET","Discovery","2022-02-15T16:47:53Z",false,0,"Script interpreter queried files/folders information via WMI [A1107d]",1,true,https://127.0.0.1/console/rule/214/details
+"ESET","Discovery","2022-02-15T16:47:53Z",false,0,"Script interpreter queried network configuration information via WMI [A1109d]",1,true,https://127.0.0.1/console/rule/217/details
+"ESET","Discovery","2022-02-15T16:47:53Z",false,0,"Script interpreter queried network share/remote systems information via WMI [A1108d]",1,true,https://127.0.0.1/console/rule/216/details
+"ESET","Discovery","2022-02-15T16:47:53Z",false,0,"Script interpreter queried processes information via WMI [A1110d]",1,true,https://127.0.0.1/console/rule/218/details
+"ESET","Discovery","2022-02-15T16:47:53Z",false,0,"Script interpreter queried system information via WMI [A1111d]",1,true,https://127.0.0.1/console/rule/219/details
+"ESET","Discovery","2022-02-15T16:47:53Z",false,0,"Script interpreter queried system owner/user information via WMI [A1106d]",1,true,https://127.0.0.1/console/rule/210/details
+"ESET","Discovery","2022-02-15T16:47:53Z",false,0,"Script interpreter queried users/groups information via WMI [A1105d]",1,true,https://127.0.0.1/console/rule/206/details
+"ESET","File system","2022-02-15T16:47:51Z",false,0,"Script interpreter saved default script file [A0317]",1,true,https://127.0.0.1/console/rule/108/details
+"ESET","File system","2022-02-15T16:47:51Z",false,0,"Script interpreter saved non-default script file [A0316]",2,true,https://127.0.0.1/console/rule/107/details
+"ESET","Special/system rules","2022-02-15T16:48:00Z",true,0,"Script interpreters detection (PowerShell/wscript) [X9901]",2,true,https://127.0.0.1/console/rule/837/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:59Z",false,0,"Script started from %TEMP% [F0443a]",2,true,https://127.0.0.1/console/rule/738/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:59Z",false,0,"Script started from Outlook %TEMP% [F0443b]",2,true,https://127.0.0.1/console/rule/739/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:59Z",false,0,"Script with unusual extension was executed [F0446]",2,true,https://127.0.0.1/console/rule/742/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:51Z",false,0,"Sdbinst.exe tool executed [A0418]",1,true,https://127.0.0.1/console/rule/123/details
+"ESET","Suspicious system configuration / Removing evidence","2022-02-15T16:47:58Z",true,0,"SDelete usage detected [E1001]",3,true,https://127.0.0.1/console/rule/624/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:57Z",true,0,"Searchprotocolhost.exe suspicious child processes [E0414]",3,true,https://127.0.0.1/console/rule/558/details
+"ESET","Registry - altering security features","2022-02-15T16:47:50Z",false,0,"Security Options: Clear pagefile on shutdown disabled [A0211b]",1,true,https://127.0.0.1/console/rule/73/details
+"ESET","Registry - altering security features","2022-02-15T16:47:50Z",false,0,"Security Options: Clear pagefile on shutdown enabled [A0211a]",1,true,https://127.0.0.1/console/rule/72/details
+"ESET","Registry - altering security features","2022-02-15T16:47:50Z",false,0,"Security Options: Interactive Login Message for users modified [A0215]",1,true,https://127.0.0.1/console/rule/77/details
+"ESET","Registry - altering security features","2022-02-15T16:47:50Z",false,0,"Security Options: Recovery Console settings modified [A0216]",1,true,https://127.0.0.1/console/rule/78/details
+"ESET","Registry - altering security features","2022-02-15T16:47:50Z",false,0,"Security Options: User Account Control - Elevate without prompt enabled for administrators [A0212d]",1,true,https://127.0.0.1/console/rule/76/details
+"ESET","Registry - altering security features","2022-02-15T16:47:50Z",false,0,"Security Options: User Account Control - Prompt for consent enabled for administrators [A0212c]",1,true,https://127.0.0.1/console/rule/75/details
+"ESET","Registry - altering security features","2022-02-15T16:47:50Z",false,0,"Security Options: User Account Control - Prompt for credentials enabled for users [A0212a]",1,true,https://127.0.0.1/console/rule/74/details
+"ESET","Persistence","2022-02-15T16:47:50Z",false,0,"SecurityProviders registry was modified [A0125]",2,true,https://127.0.0.1/console/rule/34/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:54Z",false,0,"Service execution via PowerShell [C0405a]",1,true,https://127.0.0.1/console/rule/292/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:54Z",false,0,"Service execution via PowerShell [C0405b]",1,true,https://127.0.0.1/console/rule/293/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:54Z",false,0,"Service execution via PowerShell [C0405c]",1,true,https://127.0.0.1/console/rule/294/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:54Z",false,0,"Service failure command [C0448]",1,true,https://127.0.0.1/console/rule/336/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:53Z",false,0,"Service installation or modification [B0402]",1,true,https://127.0.0.1/console/rule/233/details
+"ESET","Persistence","2022-02-15T16:47:50Z",false,0,"ServiceControlManagerExtension registry was modified [A0126]",2,true,https://127.0.0.1/console/rule/35/details
+"ESET","Persistence","2022-02-15T16:47:58Z",false,0,"Session Manager AutoStart registry modified by compromised process [F0115]",2,true,https://127.0.0.1/console/rule/664/details
+"ESET","Persistence","2022-02-15T16:47:49Z",false,0,"Session Manager AutoStart registry modified by PowerShell [A0104c]",2,true,https://127.0.0.1/console/rule/11/details
+"ESET","Persistence","2022-02-15T16:47:49Z",false,0,"Session Manager AutoStart registry modified by reg.exe [A0104b]",2,true,https://127.0.0.1/console/rule/10/details
+"ESET","Persistence","2022-02-15T16:47:49Z",true,0,"Session Manager AutoStart registry modified by script interpreter [A0104d]",3,true,https://127.0.0.1/console/rule/12/details
+"ESET","Persistence","2022-02-15T16:47:49Z",false,0,"Session Manager AutoStart registry modified by unpopular process [A0104a]",2,true,https://127.0.0.1/console/rule/9/details
+"ESET","File system","2022-02-15T16:48:00Z",false,0,"Set file as hidden [M0304]",1,true,https://127.0.0.1/console/rule/817/details
+"ESET","Suspicious system configuration / Removing evidence","2022-02-15T16:47:53Z",true,0,"Setting a dangerous boot configuration [B1004]",3,true,https://127.0.0.1/console/rule/255/details
+"ESET","Ransomware / Filecoders","2022-02-15T16:47:55Z",false,0,"Setting registry item specific to Win32/Filecoder.Buran [C0632]",2,true,https://127.0.0.1/console/rule/380/details
+"ESET","Ransomware / Filecoders","2022-02-15T16:47:55Z",false,0,"Setting registry item specific to Win32/Filecoder.Magniber [C0633]",2,true,https://127.0.0.1/console/rule/381/details
+"ESET","Ransomware / Filecoders","2022-02-15T16:47:55Z",false,0,"Setting registry item specific to Win32/Filecoder.Sodinokibi [C0631]",2,true,https://127.0.0.1/console/rule/379/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:54Z",false,0,"SharpChrome in command-line [C0433]",1,true,https://127.0.0.1/console/rule/321/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:54Z",false,0,"SharpChrome.exe executed [C0432]",1,true,https://127.0.0.1/console/rule/320/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:54Z",false,0,"SharpDump in command-line [C0437]",1,true,https://127.0.0.1/console/rule/325/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:54Z",false,0,"SharpDump.exe executed [C0436]",1,true,https://127.0.0.1/console/rule/324/details
+"ESET","Persistence","2022-02-15T16:47:53Z",false,0,"ShellExecute hook creation [B0103]",2,true,https://127.0.0.1/console/rule/224/details
+"ESET","Persistence","2022-02-15T16:47:58Z",false,0,"ShellIconOverlayIdentifiers registry modified by compromised process [F0120]",2,true,https://127.0.0.1/console/rule/669/details
+"ESET","Persistence","2022-02-15T16:47:49Z",false,0,"ShellIconOverlayIdentifiers registry modified by unpopular process [A0113]",2,true,https://127.0.0.1/console/rule/22/details
+"ESET","Persistence","2022-02-15T16:47:58Z",false,0,"Shortcut created in startup folder [F0111]",1,true,https://127.0.0.1/console/rule/660/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:48:01Z",false,0,"Shutdown command via cmd.exe [C0407]",1,true,https://127.0.0.1/console/rule/897/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:54Z",false,0,"shutdown.exe executed [C0408]",1,true,https://127.0.0.1/console/rule/298/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:54Z",false,0,"shutdown.exe for remote PC executed [C0409]",1,true,https://127.0.0.1/console/rule/299/details
+"ESET","Experimental","2022-02-15T16:48:00Z",false,0,"Signed executable drops an unsigned executable to a suspicious location [M0302]",2,true,https://127.0.0.1/console/rule/816/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:59Z",false,0,"Signed unpopular DLL loaded [F0455]",1,true,https://127.0.0.1/console/rule/759/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:48:01Z",false,0,"Signed unpopular EXE started [F0454]",1,true,https://127.0.0.1/console/rule/916/details
+"ESET","Remote desktop / Remote access","2022-02-15T16:47:53Z",true,0,"Silent execution of PsExec [B0903]",3,true,https://127.0.0.1/console/rule/251/details
+"ESET","Discovery","2022-02-15T16:47:55Z",false,0,"Silent network scanning via netscan [C1111]",1,true,https://127.0.0.1/console/rule/428/details
+"ESET","File system","2022-02-15T16:47:58Z",false,0,"Software vendor Masquerading - creation [F0302]",1,true,https://127.0.0.1/console/rule/680/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:59Z",false,0,"Software vendor Masquerading [F0456]",1,true,https://127.0.0.1/console/rule/760/details
+"ESET","Registry - altering security features","2022-02-15T16:47:58Z",false,0,"Startup folder location registry modified by compromised process [F0205]",2,true,https://127.0.0.1/console/rule/675/details
+"ESET","Registry - altering security features","2022-02-15T16:47:50Z",false,0,"Startup folder location registry modified by PowerShell [A0219c]",2,true,https://127.0.0.1/console/rule/82/details
+"ESET","Registry - altering security features","2022-02-15T16:47:50Z",false,0,"Startup folder location registry modified by reg.exe [A0219b]",2,true,https://127.0.0.1/console/rule/81/details
+"ESET","Registry - altering security features","2022-02-15T16:47:50Z",false,0,"Startup folder location registry modified by script interpreter [A0219d]",2,true,https://127.0.0.1/console/rule/83/details
+"ESET","Registry - altering security features","2022-02-15T16:47:50Z",false,0,"Startup folder location registry modified by unpopular process [A0219a]",2,true,https://127.0.0.1/console/rule/80/details
+"ESET","Discovery","2022-02-15T16:47:56Z",false,0,"Subnets discovery through adfind command [C1120]",1,true,https://127.0.0.1/console/rule/439/details
+"ESET","File system","2022-02-15T16:47:54Z",false,0,"Suspicious attrib command via cmd.exe [C0323]",1,true,https://127.0.0.1/console/rule/282/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:57Z",true,0,"Suspicious colorcpl.exe child execution [E0416]",3,true,https://127.0.0.1/console/rule/560/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:57Z",true,0,"Suspicious colorcpl.exe parent execution [E0415]",3,true,https://127.0.0.1/console/rule/559/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:59Z",false,0,"Suspicious csrss child process [F0423]",1,true,https://127.0.0.1/console/rule/713/details
+"ESET","File system","2022-02-15T16:47:53Z",false,0,"Suspicious desktop link creation [B0302]",1,true,https://127.0.0.1/console/rule/229/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:57Z",true,0,"Suspicious DLL loaded from Alternate Data Stream [E0438]",3,true,https://127.0.0.1/console/rule/568/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:59Z",false,0,"Suspicious dllhost process [F0429]",1,true,https://127.0.0.1/console/rule/719/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:59Z",false,0,"Suspicious DNS request via nslookup [F0451a]",1,true,https://127.0.0.1/console/rule/755/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:59Z",false,0,"Suspicious DNS request via nslookup [F0451b]",1,true,https://127.0.0.1/console/rule/756/details
+"ESET","Office","2022-02-15T16:48:00Z",false,0,"Suspicious Excel Add-In created [F0801]",2,true,https://127.0.0.1/console/rule/787/details
+"ESET","Persistence","2022-02-15T16:47:50Z",true,0,"Suspicious executable created in %startup% folder [A0127b]",3,true,https://127.0.0.1/console/rule/37/details
+"ESET","File system","2022-02-15T16:47:53Z",false,0,"Suspicious executable with .dll extension was dropped [B0301]",1,true,https://127.0.0.1/console/rule/228/details
+"ESET","File system","2022-02-15T16:47:53Z",false,0,"Suspicious executable with .exe extension was dropped [B0304]",2,true,https://127.0.0.1/console/rule/231/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:57Z",true,0,"Suspicious execution of search indexer [E0417]",3,true,https://127.0.0.1/console/rule/561/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:53Z",false,0,"Suspicious execution using RunDLL32 [B0409]",2,true,https://127.0.0.1/console/rule/239/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:59Z",false,0,"Suspicious explorer parent process [F0427]",1,true,https://127.0.0.1/console/rule/717/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:54Z",false,0,"Suspicious file executed from system folder [C0416]",2,true,https://127.0.0.1/console/rule/305/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:48:00Z",false,0,"Suspicious file execution origin [M0408]",2,true,https://127.0.0.1/console/rule/821/details
+"ESET","Ransomware / Filecoders","2022-02-15T16:47:55Z",false,0,"Suspicious file extension [C0622]",2,true,https://127.0.0.1/console/rule/370/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:54Z",false,0,"Suspicious file name in command content [C0427]",1,true,https://127.0.0.1/console/rule/315/details
+"ESET","File system","2022-02-15T16:47:54Z",false,0,"Suspicious fsutil file command executed [C0315]",1,true,https://127.0.0.1/console/rule/275/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:54Z",false,0,"Suspicious keyword in command content [C0447]",1,true,https://127.0.0.1/console/rule/335/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:57Z",true,0,"Suspicious LoLBaS execution: Certutil.exe (Download|Alternate Data Streams) [E0441]",3,true,https://127.0.0.1/console/rule/569/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:57Z",true,0,"Suspicious LoLBaS execution: Cmstp.exe (Execute|AWL bypass|Local .INF) [E0434]",3,true,https://127.0.0.1/console/rule/565/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:57Z",true,0,"Suspicious LoLBaS execution: Cmstp.exe (Execute|AWL bypass|Remote .INF) [E0435]",3,true,https://127.0.0.1/console/rule/566/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:57Z",true,0,"Suspicious LoLBaS Execution: Control.exe loading DLL from ADS (Alternate Data Streams) [E0437]",3,true,https://127.0.0.1/console/rule/567/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:57Z",true,0,"Suspicious LoLBaS Execution: Renamed LoLBaS execution [E0420]",3,true,https://127.0.0.1/console/rule/563/details
+"ESET","Communication","2022-02-15T16:47:58Z",true,0,"Suspicious LoLBin execution: AppInstaller.exe - ms-appinstaller cmdline (Download) [E0543]",3,true,https://127.0.0.1/console/rule/605/details
+"ESET","Communication","2022-02-15T16:47:58Z",true,0,"Suspicious LoLBin execution: AppInstaller.exe suspicious network connection (Download) [E0542]",3,true,https://127.0.0.1/console/rule/604/details
+"ESET","Communication","2022-02-15T16:47:58Z",true,0,"Suspicious LoLBin execution: CertReq.exe (Download|Upload) [E0544]",3,true,https://127.0.0.1/console/rule/606/details
+"ESET","Communication","2022-02-15T16:47:58Z",false,0,"Suspicious network connection from a quiet process [E0541]",2,true,https://127.0.0.1/console/rule/603/details
+"ESET","Communication","2022-02-15T16:47:57Z",true,0,"Suspicious network connection from werfault.exe [D0531]",3,true,https://127.0.0.1/console/rule/518/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:59Z",false,0,"Suspicious ntoskrnl child process [F0425]",1,true,https://127.0.0.1/console/rule/715/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:52Z",false,0,"Suspicious packed process executed [A0436]",2,true,https://127.0.0.1/console/rule/149/details
+"ESET","Defense Evasion","2022-02-15T16:47:57Z",false,0,"Suspicious PowerShell script - Behavior [D1202]",2,true,https://127.0.0.1/console/rule/534/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:56Z",false,0,"Suspicious PowerShell script - Containing C# code execution [D0434]",2,true,https://127.0.0.1/console/rule/493/details
+"ESET","File system","2022-02-15T16:47:56Z",true,0,"Suspicious PowerShell script - Credentials Stealing [D0328]",3,true,https://127.0.0.1/console/rule/465/details
+"ESET","Defense Evasion","2022-02-15T16:47:57Z",false,0,"Suspicious PowerShell script - Hiding [D1204]",2,true,https://127.0.0.1/console/rule/536/details
+"ESET","Communication","2022-02-15T16:47:57Z",false,0,"Suspicious PowerShell script - Network [D0524]",2,true,https://127.0.0.1/console/rule/511/details
+"ESET","Defense Evasion","2022-02-15T16:47:57Z",false,0,"Suspicious PowerShell script - Obfuscation [D1201]",2,true,https://127.0.0.1/console/rule/533/details
+"ESET","Discovery","2022-02-15T16:47:57Z",false,0,"Suspicious PowerShell script - Screen/Keystroke/Window Capture [D1101]",2,true,https://127.0.0.1/console/rule/531/details
+"ESET","Communication","2022-02-15T16:47:57Z",false,0,"Suspicious PowerShell script - SQL Communication [D0525]",2,true,https://127.0.0.1/console/rule/512/details
+"ESET","Persistence","2022-02-15T16:47:56Z",false,0,"Suspicious PowerShell script - Startup [D0101]",2,true,https://127.0.0.1/console/rule/444/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:56Z",false,0,"Suspicious PowerShell script - UAC Bypass [D0433]",2,true,https://127.0.0.1/console/rule/492/details
+"ESET","File system","2022-02-15T16:47:57Z",false,0,"Suspicious process (low reputation) has written to the Recycle Bin folder [E0302]",2,true,https://127.0.0.1/console/rule/544/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:51Z",false,0,"Suspicious process created named pipe [A0435a]",2,true,https://127.0.0.1/console/rule/146/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:51Z",false,0,"Suspicious process executed process via WMI [A0428b]",2,true,https://127.0.0.1/console/rule/137/details
+"ESET","Suspicious system configuration / Removing evidence","2022-02-15T16:47:55Z",false,0,"Suspicious process has changed PendingFileRenameOperations item in Windows registry [C1009]",1,true,https://127.0.0.1/console/rule/398/details
+"ESET","File system","2022-02-15T16:47:54Z",false,0,"Suspicious process has deleted file from system backup [C0325]",1,true,https://127.0.0.1/console/rule/283/details
+"ESET","File system","2022-02-15T16:47:54Z",false,0,"Suspicious process has written file into boot folder [C0319]",1,true,https://127.0.0.1/console/rule/279/details
+"ESET","File system","2022-02-15T16:47:54Z",false,0,"Suspicious process has written file into cd-rom [C0321]",1,true,https://127.0.0.1/console/rule/281/details
+"ESET","File system","2022-02-15T16:47:54Z",false,0,"Suspicious process has written file into system backup folder [C0326]",1,true,https://127.0.0.1/console/rule/284/details
+"ESET","File system","2022-02-15T16:47:54Z",false,0,"Suspicious process has written HTML file into program files folder [C0320]",1,true,https://127.0.0.1/console/rule/280/details
+"ESET","Discovery","2022-02-15T16:47:53Z",false,0,"Suspicious process queried files/folders information via WMI [A1107a]",1,true,https://127.0.0.1/console/rule/211/details
+"ESET","Discovery","2022-02-15T16:48:00Z",false,0,"Suspicious process queried network configuration information via WMI [A1109a]",1,true,https://127.0.0.1/console/rule/886/details
+"ESET","Discovery","2022-02-15T16:48:00Z",false,0,"Suspicious process queried network share/remote systems information via WMI [A1108a]",1,true,https://127.0.0.1/console/rule/884/details
+"ESET","Discovery","2022-02-15T16:48:00Z",false,0,"Suspicious process queried processes information via WMI [A1110a]",1,true,https://127.0.0.1/console/rule/888/details
+"ESET","Discovery","2022-02-15T16:48:00Z",false,0,"Suspicious process queried system information via WMI [A1111a]",1,true,https://127.0.0.1/console/rule/890/details
+"ESET","Discovery","2022-02-15T16:47:53Z",false,0,"Suspicious process queried system owner/user information via WMI [A1106a]",1,true,https://127.0.0.1/console/rule/207/details
+"ESET","Discovery","2022-02-15T16:47:53Z",false,0,"Suspicious process queried users/groups information via WMI [A1105a]",1,true,https://127.0.0.1/console/rule/203/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:51Z",false,0,"Suspicious process was executed via WMI [A0428a]",2,true,https://127.0.0.1/console/rule/136/details
+"ESET","Ransomware / Filecoders","2022-02-15T16:47:55Z",false,0,"Suspicious process writes file with supicious name [C0641]",1,true,https://127.0.0.1/console/rule/389/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:59Z",false,0,"Suspicious rundll32 process [F0430]",1,true,https://127.0.0.1/console/rule/720/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:59Z",false,0,"Suspicious script interpreter process tree - browsers [F0420a]",2,true,https://127.0.0.1/console/rule/707/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:59Z",false,0,"Suspicious script interpreter process tree - Microsoft Office [F0420b]",2,true,https://127.0.0.1/console/rule/708/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:59Z",false,0,"Suspicious script interpreter process tree - Microsoft Outlook [F0420d]",2,true,https://127.0.0.1/console/rule/710/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:59Z",false,0,"Suspicious script interpreter process tree - PDF readers [F0420c]",2,true,https://127.0.0.1/console/rule/709/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:59Z",false,0,"Suspicious script interpreter started - cmd [F0447d]",2,true,https://127.0.0.1/console/rule/746/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:59Z",false,0,"Suspicious script interpreter started - cscript [F0447b]",2,true,https://127.0.0.1/console/rule/744/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:59Z",false,0,"Suspicious script interpreter started - mshta [F0447e]",2,true,https://127.0.0.1/console/rule/747/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:59Z",false,0,"Suspicious script interpreter started - powershell [F0447a]",2,true,https://127.0.0.1/console/rule/743/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:59Z",false,0,"Suspicious script interpreter started - wscript [F0447c]",2,true,https://127.0.0.1/console/rule/745/details
+"ESET","Remote desktop / Remote access","2022-02-15T16:47:53Z",false,0,"Suspicious service executed [B0902]",2,true,https://127.0.0.1/console/rule/250/details
+"ESET","Persistence","2022-02-15T16:47:58Z",false,0,"Suspicious shortcut executed from Startup [F0112]",1,true,https://127.0.0.1/console/rule/661/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:59Z",false,0,"Suspicious shortcut executed [F0458a]",1,true,https://127.0.0.1/console/rule/762/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:59Z",false,0,"Suspicious shortcut executed [F0458b]",1,true,https://127.0.0.1/console/rule/763/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:59Z",false,0,"Suspicious shut down executed [F0462e]",1,true,https://127.0.0.1/console/rule/771/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:59Z",false,0,"Suspicious smss child process [F0424]",1,true,https://127.0.0.1/console/rule/714/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:54Z",false,0,"Suspicious start command [C0442]",1,true,https://127.0.0.1/console/rule/330/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:59Z",false,0,"Suspicious svchost process [F0428]",1,true,https://127.0.0.1/console/rule/718/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:59Z",false,0,"Suspicious system process - services child [F0432]",1,true,https://127.0.0.1/console/rule/722/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:59Z",false,0,"Suspicious system process child - lsass / lsm [F0431]",1,true,https://127.0.0.1/console/rule/721/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:54Z",false,0,"Suspicious systemreset command executed [C0419]",1,true,https://127.0.0.1/console/rule/308/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:59Z",false,0,"Suspicious userinit child process [F0422]",1,true,https://127.0.0.1/console/rule/712/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:59Z",false,0,"Suspicious wininit child process [F0426]",1,true,https://127.0.0.1/console/rule/716/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:59Z",false,0,"Suspicious winlogon child process [F0421]",1,true,https://127.0.0.1/console/rule/711/details
+"ESET","Office","2022-02-15T16:48:00Z",false,0,"Suspicious Word Add-In created [F0802]",2,true,https://127.0.0.1/console/rule/788/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:54Z",false,0,"Suspicous cacls command executed [C0422]",1,true,https://127.0.0.1/console/rule/311/details
+"ESET","File system","2022-02-15T16:47:53Z",false,0,"SYS file creation or modification [B0303a]",1,true,https://127.0.0.1/console/rule/230/details
+"ESET","Discovery","2022-02-15T16:48:00Z",false,0,"System Information Discovery [F1107]",1,true,https://127.0.0.1/console/rule/801/details
+"ESET","Discovery","2022-02-15T16:47:55Z",false,0,"System network configuration discovery via PowerShell [C1103a]",1,true,https://127.0.0.1/console/rule/407/details
+"ESET","Discovery","2022-02-15T16:47:55Z",false,0,"System network configuration discovery via PowerShell [C1103b]",1,true,https://127.0.0.1/console/rule/408/details
+"ESET","Discovery","2022-02-15T16:47:55Z",false,0,"System network configuration discovery via PowerShell [C1103c]",1,true,https://127.0.0.1/console/rule/409/details
+"ESET","Discovery","2022-02-15T16:48:00Z",false,0,"System Network Configuration Discovery [F1108a]",1,true,https://127.0.0.1/console/rule/802/details
+"ESET","Discovery","2022-02-15T16:48:01Z",false,0,"System Network Configuration Discovery [F1108b]",1,true,https://127.0.0.1/console/rule/920/details
+"ESET","Discovery","2022-02-15T16:48:01Z",false,0,"System Network Configuration Discovery [F1108c]",1,true,https://127.0.0.1/console/rule/921/details
+"ESET","Discovery","2022-02-15T16:47:55Z",false,0,"System network connections discovery via PowerShell [C1106a]",1,true,https://127.0.0.1/console/rule/416/details
+"ESET","Discovery","2022-02-15T16:47:55Z",false,0,"System network connections discovery via PowerShell [C1106b]",1,true,https://127.0.0.1/console/rule/417/details
+"ESET","Discovery","2022-02-15T16:47:55Z",false,0,"System network connections discovery via PowerShell [C1106c]",1,true,https://127.0.0.1/console/rule/418/details
+"ESET","Discovery","2022-02-15T16:48:00Z",false,0,"System Network Connections Discovery [F1111]",1,true,https://127.0.0.1/console/rule/804/details
+"ESET","Discovery","2022-02-15T16:48:00Z",false,0,"System Owner / User Discovery [F1109]",1,true,https://127.0.0.1/console/rule/803/details
+"ESET","Discovery","2022-02-15T16:47:53Z",false,0,"System owner/user discovery via environment variable (AMSI) [A1112]",1,true,https://127.0.0.1/console/rule/220/details
+"ESET","Discovery","2022-02-15T16:47:55Z",false,0,"System owner/user discovery via PowerShell [C1105a]",1,true,https://127.0.0.1/console/rule/413/details
+"ESET","Discovery","2022-02-15T16:47:55Z",false,0,"System owner/user discovery via PowerShell [C1105b]",1,true,https://127.0.0.1/console/rule/414/details
+"ESET","Discovery","2022-02-15T16:47:55Z",false,0,"System owner/user discovery via PowerShell [C1105c]",1,true,https://127.0.0.1/console/rule/415/details
+"ESET","Discovery","2022-02-15T16:47:55Z",false,0,"System service discovery via PowerShell [C1101a]",1,true,https://127.0.0.1/console/rule/401/details
+"ESET","Discovery","2022-02-15T16:47:55Z",false,0,"System service discovery via PowerShell [C1101b]",1,true,https://127.0.0.1/console/rule/402/details
+"ESET","Discovery","2022-02-15T16:47:55Z",false,0,"System service discovery via PowerShell [C1101c]",1,true,https://127.0.0.1/console/rule/403/details
+"ESET","Discovery","2022-02-15T16:48:01Z",false,0,"System Service Discovery [F1110]",1,true,https://127.0.0.1/console/rule/922/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:54Z",false,0,"System state backups deletion attempt [C0404]",2,true,https://127.0.0.1/console/rule/291/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:54Z",false,0,"systemreset.exe executed [C0413]",1,true,https://127.0.0.1/console/rule/303/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:54Z",false,0,"takeown.exe executed [C0420]",1,true,https://127.0.0.1/console/rule/309/details
+"ESET","Registry - altering security features","2022-02-15T16:47:56Z",false,0,"Task Manager has been disabled [D0214]",2,true,https://127.0.0.1/console/rule/451/details
+"ESET","Registry - altering security features","2022-02-15T16:47:58Z",true,0,"Tcpip Parameters DhcpDomain registry entry modified by compromised process [F0203]",3,true,https://127.0.0.1/console/rule/673/details
+"ESET","Registry - altering security features","2022-02-15T16:47:56Z",true,0,"Tcpip Parameters DhcpDomain registry entry modified by unpopular process [D0210]",3,true,https://127.0.0.1/console/rule/449/details
+"ESET","Registry - altering security features","2022-02-15T16:47:58Z",true,0,"Tcpip Parameters DhcpNameServer registry entry modified by compromised process [F0204]",3,true,https://127.0.0.1/console/rule/674/details
+"ESET","Registry - altering security features","2022-02-15T16:47:56Z",true,0,"Tcpip Parameters DhcpNameServer registry entry modified by unpopular process [D0211]",3,true,https://127.0.0.1/console/rule/450/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:56Z",false,0,"TeamViewer application started [D0426]",2,true,https://127.0.0.1/console/rule/485/details
+"ESET","Persistence","2022-02-15T16:47:50Z",false,0,"Terminal Server autostart registry was modified [A0128]",2,true,https://127.0.0.1/console/rule/38/details
+"ESET","Remote desktop / Remote access","2022-02-15T16:47:52Z",false,0,"Terminal Server remote connection was enabled [A0902]",2,true,https://127.0.0.1/console/rule/194/details
+"ESET","Discovery","2022-02-15T16:47:56Z",false,0,"Time discovery through net command [C1122]",1,true,https://127.0.0.1/console/rule/441/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:54Z",false,0,"Tor application executed [C0457]",1,true,https://127.0.0.1/console/rule/343/details
+"ESET","Communication","2022-02-15T16:47:52Z",false,0,"Tor2Web service connection [A0507]",2,true,https://127.0.0.1/console/rule/175/details
+"ESET","Communication","2022-02-15T16:47:57Z",true,0,"TrickBot handshake protocol detected [D0527]",3,true,https://127.0.0.1/console/rule/514/details
+"ESET","Communication","2022-02-15T16:47:57Z",true,0,"TrickBot module request detected [D0528]",3,true,https://127.0.0.1/console/rule/515/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:54Z",true,0,"TrojanDownloader.Nemucod may overwrite data files [C0403]",3,true,https://127.0.0.1/console/rule/290/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:53Z",true,0,"Trusted process loaded suspicious DLL [B0406a][C]",2,true,https://127.0.0.1/console/rule/236/details
+"ESET","Remote desktop / Remote access","2022-02-15T16:48:00Z",true,0,"Turn on remote login [M0901]",3,true,https://127.0.0.1/console/rule/828/details
+"ESET","Registry - altering security features","2022-02-15T16:47:56Z",true,0,"UAC bypass registry modifications [D0217]",3,true,https://127.0.0.1/console/rule/454/details
+"ESET","Suspicious system configuration / Removing evidence","2022-02-15T16:47:55Z",false,0,"Uncommon windows error reporting registry terminator [C1002]",1,true,https://127.0.0.1/console/rule/391/details
+"ESET","Communication","2022-02-15T16:47:58Z",false,0,"Unpopular Process communicating over potentially suspicious protocol - detected XMPP communication [E0530]",2,true,https://127.0.0.1/console/rule/598/details
+"ESET","Communication","2022-02-15T16:47:57Z",false,0,"Unpopular process connects to email server ( SMTP ) [D0521]",1,true,https://127.0.0.1/console/rule/507/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:59Z",false,0,"Unpopular process executed from a Scheduled Task [F0411]",1,true,https://127.0.0.1/console/rule/693/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:56Z",false,0,"Unpopular process executed from BITS [D0445]",1,true,https://127.0.0.1/console/rule/503/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:56Z",false,0,"Unpopular process executed from Rar/7zip sfx [D0416]",2,true,https://127.0.0.1/console/rule/482/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:56Z",true,0,"Unpopular process from %TMP% folder executed svchost/explorer [D0403]",3,true,https://127.0.0.1/console/rule/471/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:48:00Z",false,0,"Unpopular process has started from %AppData%/%ProgramData% [Z0403]",1,true,https://127.0.0.1/console/rule/873/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:48:00Z",false,0,"Unpopular process has started from %Temp% [Z0402]",1,true,https://127.0.0.1/console/rule/872/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:48:00Z",true,0,"Unpopular process has started from root of %Home% [Z0404]",3,true,https://127.0.0.1/console/rule/874/details
+"ESET","File system","2022-02-15T16:47:57Z",false,0,"Unpopular process has written to the Recycle Bin folder [E0303]",2,true,https://127.0.0.1/console/rule/545/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:56Z",false,0,"Unpopular process loaded suspicious DLL [D0439]",1,true,https://127.0.0.1/console/rule/497/details
+"ESET","Communication","2022-02-15T16:47:56Z",false,0,"Unpopular process made suspicious http query [D0519]",1,true,https://127.0.0.1/console/rule/506/details
+"ESET","Communication","2022-02-15T16:47:57Z",true,0,"Unpopular process makes HTTP request to a PasteBin-like site [E0505]",3,true,https://127.0.0.1/console/rule/583/details
+"ESET","Communication","2022-02-15T16:47:57Z",false,0,"Unpopular process makes HTTP request to a popular Web Service [E0502]",2,true,https://127.0.0.1/console/rule/580/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:56Z",false,0,"Unpopular remote access/desktop application started [D0428]",2,true,https://127.0.0.1/console/rule/487/details
+"ESET","Experimental","2022-02-15T16:48:01Z",false,0,"Unsigned file executed [M0402]",2,true,https://127.0.0.1/console/rule/924/details
+"ESET","Registry - altering security features","2022-02-15T16:47:53Z",true,0,"User Account Control disabling [B0201]",3,true,https://127.0.0.1/console/rule/226/details
+"ESET","Persistence","2022-02-15T16:47:58Z",false,0,"User account was created [F0106]",1,true,https://127.0.0.1/console/rule/656/details
+"ESET","Discovery","2022-02-15T16:47:56Z",false,0,"User details discovery through net command [C1121]",1,true,https://127.0.0.1/console/rule/440/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:59Z",false,0,"User execution - suspicious cmd [F0448a]",2,true,https://127.0.0.1/console/rule/748/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:59Z",false,0,"User execution - suspicious powershell [F0448b]",2,true,https://127.0.0.1/console/rule/749/details
+"ESET","Discovery","2022-02-15T16:47:56Z",false,0,"User group enumeration via Net/ADFind [C1116]",1,true,https://127.0.0.1/console/rule/434/details
+"ESET","Suspicious system configuration / Removing evidence","2022-02-15T16:48:00Z",false,0,"User was added to administrator group [F1000]",1,true,https://127.0.0.1/console/rule/793/details
+"ESET","Suspicious system configuration / Removing evidence","2022-02-15T16:48:00Z",false,0,"User was removed from administrator group [F1001]",1,true,https://127.0.0.1/console/rule/794/details
+"ESET","Suspicious system configuration / Removing evidence","2022-02-15T16:47:53Z",true,0,"User/group management from command line [B1003]",3,true,https://127.0.0.1/console/rule/254/details
+"ESET","Office","2022-02-15T16:48:00Z",false,0,"VBA Excel Add-In created [F0803]",1,true,https://127.0.0.1/console/rule/789/details
+"ESET","Office","2022-02-15T16:48:00Z",false,0,"VBA PowerPoint Add-In created [F0804]",1,true,https://127.0.0.1/console/rule/790/details
+"ESET","Persistence","2022-02-15T16:47:58Z",false,0,"Very large Registry value set [F0103]",1,true,https://127.0.0.1/console/rule/653/details
+"ESET","Persistence","2022-02-15T16:47:50Z",false,0,"Visual Basic monitor dll registry modified [A0130]",2,true,https://127.0.0.1/console/rule/40/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:56Z",false,0,"VNC (Ultra/Real/Tight) application started [D0427]",2,true,https://127.0.0.1/console/rule/486/details
+"ESET","Communication","2022-02-15T16:47:57Z",false,0,"VNC connection from external IP range [D0523b]",2,true,https://127.0.0.1/console/rule/510/details
+"ESET","Communication","2022-02-15T16:47:57Z",false,0,"VNC connection from internal IP range [D0523a]",2,true,https://127.0.0.1/console/rule/509/details
+"ESET","Removing evidence","2022-02-15T16:48:00Z",true,0,"Volume USN journal was deleted [F1003]",3,true,https://127.0.0.1/console/rule/796/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:54Z",false,0,"vssadmin.exe executed [C0414]",1,true,https://127.0.0.1/console/rule/304/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:54Z",false,0,"w32tm.exe executed [C0425]",1,true,https://127.0.0.1/console/rule/313/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:54Z",false,0,"wbadmin.exe executed [C0412]",1,true,https://127.0.0.1/console/rule/302/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:56Z",false,0,"Werfault launched process with high privilege [D0431]",2,true,https://127.0.0.1/console/rule/490/details
+"ESET","Ransomware / Filecoders","2022-02-15T16:47:55Z",true,0,"Win32/Filecoder.WannaCryptor clue has been found [C0614]",3,true,https://127.0.0.1/console/rule/362/details
+"ESET","Ransomware / Filecoders","2022-02-15T16:47:55Z",true,0,"Win32/Filecoder.WastedLocker installation behavior [C0630]",3,true,https://127.0.0.1/console/rule/378/details
+"ESET","Persistence","2022-02-15T16:47:50Z",false,0,"Windows CE AutoStart registry was modified [A0131]",2,true,https://127.0.0.1/console/rule/41/details
+"ESET","Suspicious system configuration / Removing evidence","2022-02-15T16:47:55Z",false,0,"Windows error reporting - DumpFolder key has been set in registry [C1004]",1,true,https://127.0.0.1/console/rule/393/details
+"ESET","File system","2022-02-15T16:48:01Z",false,0,"Windows error reporting - file written into LiveKernelReports folder [C0327]",1,true,https://127.0.0.1/console/rule/896/details
+"ESET","Suspicious system configuration / Removing evidence","2022-02-15T16:47:55Z",false,0,"Windows error reporting disabled in registry [C1003]",1,true,https://127.0.0.1/console/rule/392/details
+"ESET","Registry - altering security features","2022-02-15T16:47:50Z",false,0,"Windows Explorer hide extensions for known file types enabled [A0222]",2,true,https://127.0.0.1/console/rule/86/details
+"ESET","Persistence","2022-02-15T16:47:49Z",false,0,"Windows Explorer ShellServiceObjects registry entry was modified [A0114]",2,true,https://127.0.0.1/console/rule/23/details
+"ESET","Registry - altering security features","2022-02-15T16:47:50Z",true,0,"Windows Explorer shows hidden disabled files [A0221]",3,true,https://127.0.0.1/console/rule/85/details
+"ESET","Registry - altering security features","2022-02-15T16:47:50Z",false,0,"Windows Firewall disabled [A0223]",2,true,https://127.0.0.1/console/rule/87/details
+"ESET","Registry - altering security features","2022-02-15T16:47:50Z",false,0,"Windows Firewall exceptions allowed [A0220]",2,true,https://127.0.0.1/console/rule/84/details
+"ESET","Registry - altering security features","2022-02-15T16:47:53Z",true,0,"Windows Firewall rules manipulation [B0202]",3,true,https://127.0.0.1/console/rule/227/details
+"ESET","Persistence","2022-02-15T16:47:50Z",true,0,"Windows Management Instrumentation event subscription [A0144]",3,true,https://127.0.0.1/console/rule/58/details
+"ESET","Persistence","2022-02-15T16:47:58Z",false,0,"Windows NT Drivers32 registry modified by compromised process [F0118]",2,true,https://127.0.0.1/console/rule/667/details
+"ESET","Persistence","2022-02-15T16:47:50Z",false,0,"Windows NT Drivers32 registry modified by unpopular process [A0132]",2,true,https://127.0.0.1/console/rule/42/details
+"ESET","Persistence","2022-02-15T16:47:50Z",false,0,"Windows NT Font Drivers registry was modified [A0133]",2,true,https://127.0.0.1/console/rule/43/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:51Z",false,0,"Windows Print Spooler dropped suspicious DLL [A0319]",2,true,https://127.0.0.1/console/rule/110/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:48:00Z",false,0,"Windows Print Spooler executed unusual process [A0442]",1,true,https://127.0.0.1/console/rule/880/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:48:00Z",false,0,"Windows Print Spooler loaded suspicious DLL from remote folder [A0441]",2,true,https://127.0.0.1/console/rule/879/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:52Z",false,0,"Windows Print Spooler loaded suspicious DLL [A0438][C]",2,true,https://127.0.0.1/console/rule/151/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:51Z",false,0,"Windows Script Host executed process via WMI [A0427b]",2,true,https://127.0.0.1/console/rule/134/details
+"ESET","File system","2022-02-15T16:47:51Z",false,0,"Windows Script Host has dropped a suspicious executable [A0307]",2,true,https://127.0.0.1/console/rule/98/details
+"ESET","Registry - altering security features","2022-02-15T16:47:58Z",false,0,"Windows Subsystem for Linux enabled [F0200]",2,true,https://127.0.0.1/console/rule/670/details
+"ESET","Suspicious system configuration / Removing evidence","2022-02-15T16:47:55Z",false,0,"Windows Updates - auto-restart enabled in registry [C1006]",1,true,https://127.0.0.1/console/rule/395/details
+"ESET","Suspicious system configuration / Removing evidence","2022-02-15T16:47:55Z",false,0,"Windows Updates - auto-update disabled in registry [C1005]",2,true,https://127.0.0.1/console/rule/394/details
+"ESET","Suspicious system configuration / Removing evidence","2022-02-15T16:47:55Z",false,0,"Windows Updates - scheduled auto-restart enabled in registry [C1008]",1,true,https://127.0.0.1/console/rule/397/details
+"ESET","Suspicious system configuration / Removing evidence","2022-02-15T16:47:55Z",false,0,"Windows Updates - wrong WUServer item value [C1007]",1,true,https://127.0.0.1/console/rule/396/details
+"ESET","Persistence","2022-02-15T16:47:58Z",false,0,"Winlogon autostart registry was modified by compromised process [F0119]",2,true,https://127.0.0.1/console/rule/668/details
+"ESET","Persistence","2022-02-15T16:47:50Z",false,0,"Winlogon autostart registry was modified by PowerShell [A0134c]",2,true,https://127.0.0.1/console/rule/46/details
+"ESET","Persistence","2022-02-15T16:47:50Z",false,0,"Winlogon autostart registry was modified by reg.exe [A0134b]",2,true,https://127.0.0.1/console/rule/45/details
+"ESET","Persistence","2022-02-15T16:47:50Z",false,0,"Winlogon autostart registry was modified by script interpreter [A0134d]",2,true,https://127.0.0.1/console/rule/47/details
+"ESET","Persistence","2022-02-15T16:47:50Z",true,0,"Winlogon autostart registry was modified by unpopular process [A0134a]",3,true,https://127.0.0.1/console/rule/44/details
+"ESET","Persistence","2022-02-15T16:47:53Z",false,0,"Winlogon Notify registration [B0102]",2,true,https://127.0.0.1/console/rule/223/details
+"ESET","Persistence","2022-02-15T16:47:50Z",false,0,"WinRAR ExternalViewer registry modified [A0135]",1,true,https://127.0.0.1/console/rule/48/details
+"ESET","Registry - altering security features","2022-02-15T16:47:56Z",false,0,"WinRM (Remote Powershell) service set to Automatic start [D0216]",2,true,https://127.0.0.1/console/rule/453/details
+"ESET","Persistence","2022-02-15T16:47:50Z",false,0,"Winsock2 AutoDial registry modified [A0136]",2,true,https://127.0.0.1/console/rule/49/details
+"ESET","Persistence","2022-02-15T16:47:50Z",false,0,"WinZip external programs registry modified [A0137]",1,true,https://127.0.0.1/console/rule/50/details
+"ESET","Persistence","2022-02-15T16:47:56Z",false,0,"WMI scheduled task creation [D0102]",2,true,https://127.0.0.1/console/rule/445/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:57Z",true,0,"WMI Win32_Process derivation invocation via PowerShell [E0448]",3,true,https://127.0.0.1/console/rule/572/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:51Z",true,0,"WMIC has processed an Extensible Stylesheet Language (XSL) file [A0426]",3,true,https://127.0.0.1/console/rule/132/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:51Z",false,0,"Wmic.exe executed process via WMI [A0430a]",1,true,https://127.0.0.1/console/rule/139/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:59Z",true,0,"wmic.exe executed under a different name [F0441][C]",2,true,https://127.0.0.1/console/rule/736/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:51Z",false,0,"Wmic.exe local process execution command line parameters [A0430b]",1,true,https://127.0.0.1/console/rule/140/details
+"ESET","Discovery","2022-02-15T16:47:53Z",false,0,"Wmic.exe queried files/folders information via WMI [A1107b]",1,true,https://127.0.0.1/console/rule/212/details
+"ESET","Discovery","2022-02-15T16:47:53Z",false,0,"Wmic.exe queried network share/remote systems information via WMI [A1108b]",1,true,https://127.0.0.1/console/rule/215/details
+"ESET","Discovery","2022-02-15T16:47:53Z",false,0,"Wmic.exe queried system owner/user information via WMI [A1106b]",1,true,https://127.0.0.1/console/rule/208/details
+"ESET","Discovery","2022-02-15T16:47:53Z",false,0,"Wmic.exe queried users/groups information via WMI [A1105b]",1,true,https://127.0.0.1/console/rule/204/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:51Z",false,0,"Wmic.exe remote access via WMI - command line parameters telemetry [A0431]",1,true,https://127.0.0.1/console/rule/142/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:51Z",false,0,"Wmic.exe remote process execution command line parameters [A0430c]",2,true,https://127.0.0.1/console/rule/141/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:51Z",false,0,"Wmic.exe was executed by browser [A0424c]",2,true,https://127.0.0.1/console/rule/129/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:51Z",true,0,"Wmic.exe was executed by Microsoft Office application [A0424d]",3,true,https://127.0.0.1/console/rule/130/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:51Z",false,0,"Wmic.exe was executed from script interpreter [A0424b]",2,true,https://127.0.0.1/console/rule/128/details
+"ESET","File system","2022-02-15T16:48:00Z",true,0,"Write to a file with a suspicious extension [M0301]",3,true,https://127.0.0.1/console/rule/815/details
+"ESET","Persistence","2022-02-15T16:48:00Z",false,0,"Write to rc.common [M0102]",2,true,https://127.0.0.1/console/rule/810/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:56Z",true,0,"wscript executed under a different name [D0410][C]",2,true,https://127.0.0.1/console/rule/476/details
+"ESET","Persistence","2022-02-15T16:47:56Z",false,0,"Wscript taskschd.dll load [D0103]",2,true,https://127.0.0.1/console/rule/446/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:51Z",false,0,"Wscript.exe executed a process [A0415]",2,true,https://127.0.0.1/console/rule/120/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:56Z",false,0,"wshom.ocx loaded by unpopular process [D0438]",2,true,https://127.0.0.1/console/rule/496/details
+"ESET","Suspicious process creation and process manipulation","2022-02-15T16:47:59Z",false,0,"WSL2 file system process started [F0434]",1,true,https://127.0.0.1/console/rule/725/details
+"ESET","File system","2022-02-15T16:47:51Z",false,0,"Xcopy/Robocopy executed with network share [A0315]",1,true,https://127.0.0.1/console/rule/106/details
+"ESET","File system","2022-02-15T16:47:51Z",false,0,"Zone.Identifier deleted by an unpopular process [A0302]",1,true,https://127.0.0.1/console/rule/93/details
+"ESET","File system","2022-02-15T16:47:58Z",false,0,"Zone.Identifier deleted by compromised process [F0305]",1,true,https://127.0.0.1/console/rule/683/details
