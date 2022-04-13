@@ -1,1 +1,0 @@
-These exported profiles are built off of internal solution implemented in 1.7.1984.0+ which corrects the problem of incorrect rule profiles applied in v1.7.1978.0 (fresh installs only)
