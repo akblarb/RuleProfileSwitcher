@@ -68,8 +68,52 @@ function authenticate ($authLoginReq) {
     }
 }
 
+function authenticateEIC ($authLoginReq) {
+    myLogger -myStr "Connecting to EIC Host $($EsmcHost) with Username $($Esmcuser)"
+    #Send Initial Auth
+    $resp02 = Invoke-WebRequest -Method POST -Uri "https://identity.eset.com/api/login/pwd" -websession $seshGetAuthEic -Body ($authLoginReq | ConvertTo-Json) -Headers @{'Content-Type' = 'application/json '}
+    If ((($resp02.Content| ConvertFrom-Json).responseType) -eq 20) {
+        #Begin 2FA challenge
+        $tfaChallenge = @{}
+        $tfaChallenge.code = (Read-Host "  Enter one time password")
+        $tfaChallenge.returnUrl = $authLoginReq.returnUrl
+        $tfaChallenge.isBackupCode = $false
+        $tfaChallenge.rememberAuthentication = $false
+        $resp02fa = Invoke-WebRequest -Method POST -Uri "https://identity.eset.com/api/login/tfa" -websession $seshGetAuthEic -Body ($tfaChallenge | ConvertTo-Json) -Headers @{'Content-Type' = 'application/json '}
+    }
+    
+    $resp03 = Invoke-WebRequest -Method GET -Uri $callback -websession $seshGetAuthEic -MaximumRedirection 0
+    $resp04 = Invoke-WebRequest -Method GET -Uri  $resp03.Headers.'Location' -websession $seshGetAuthEic -MaximumRedirection 0
+
+
+    $resp05 = Invoke-WebRequest -Method GET -Uri  $resp04.Headers.'Location' -websession $seshGetAuthEic -MaximumRedirection 0 #"$resp04.Headers.'Location'" Will contain the correct regional server where EIC lives US1, EU1, etc
+
+    $urlRegion = $resp04.Headers.'Location'.Split('?')[0] #pulls the speicific URL for a region where EIC server lives.  Like: https://us01.inspect.eset.com/
+    myLogger -myStr "Changing from EIC Host $($EsmcHost) to Regional Server: $($urlRegion.split("/")[2])"
+    $global:EsmcHost = $urlRegion.split("/")[2]
+    myLogger -myStr "EIC Host is now: $($EsmcHost)"
+    $loginCodeStr = ($resp03.Headers.'Location'.Split('&') | where {$_ -like "code=*"}).split('=')[1]
+    $global:LoginCode = @{}
+    $global:LoginCode.ott = $loginCodeStr
+    $resp06 = Invoke-WebRequest -Method POST -Uri  "$($urlRegion)frontend/login" -websession $seshGetAuthEic -Body ($global:LoginCode | ConvertTo-Json) -MaximumRedirection 5
+    if ($verbose) {
+        myLogger -myStr  "$($resp06)"
+    }
+    
+    #myLogger -myStr $resp06.StatusCode
+    If ($resp06.StatusCode -eq 200) {
+        #return ($response.headers)
+		#return $response
+        return $resp06.Headers['X-Security-Token']
+    } Else {
+        myLogger -myStr "Failed to authenticate EIC.  Received HTTP Error: $($resp06.StatusCode)" -warnLvl "threat"
+		exit
+    }
+}
+
 function getRules ($reqQuery) {
-	$response = Invoke-WebRequest -Method GET -Uri "https://$($EsmcHost)/api/v1/rules" -Body $reqQuery -Headers @{'Authorization' = 'Bearer '+$token}  #-SkipCertificateCheck #this skip cert switch only works on v7 Powershell(possibly on v6)
+	#$response = Invoke-WebRequest -Method GET -Uri "https://$($EsmcHost)/api/v1/rules" -Body $reqQuery -Headers @{'Authorization' = 'Bearer '+$token}  #-SkipCertificateCheck #this skip cert switch only works on v7 Powershell(possibly on v6)
+    $response = Invoke-WebRequest -Method GET -Uri "https://$($EsmcHost)/api/v1/rules" -Body $reqQuery -Headers @{'Authorization' = 'Bearer '+$token} -websession $seshGetAuthEic  #-SkipCertificateCheck #this skip cert switch only works on v7 Powershell(possibly on v6)
     If ($response.StatusCode -eq 200) {
         #return ($response.headers)
         return $response
@@ -81,7 +125,7 @@ function getRules ($reqQuery) {
 
 
 function getRule ($id) {
-	    $response = Invoke-WebRequest -Method GET -Uri "https://$($EsmcHost)/api/v1/rules/$id" -Body $reqQuery -Headers @{'Authorization' = 'Bearer '+$token}  #-SkipCertificateCheck #this skip cert switch only works on v7 Powershell(possibly on v6)
+	    $response = Invoke-WebRequest -Method GET -Uri "https://$($EsmcHost)/api/v1/rules/$id" -Body $reqQuery -Headers @{'Authorization' = 'Bearer '+$token}-websession $seshGetAuthEic  #-SkipCertificateCheck #this skip cert switch only works on v7 Powershell(possibly on v6)
     If ($response.StatusCode -eq 200) {
         #return ($response.headers)
         return $response
@@ -95,7 +139,7 @@ function enableDisableRule ($reqQuery) {
 		#myLogger -myStr  "myQuery 0: $($reqQuery[0])"
 		#myLogger -myStr  "myQuery 1: $($reqQuery[1])"
 		#myLogger -myStr  "myID: $($id[1])"
-	    $response = Invoke-WebRequest -Method PATCH -Uri "https://$($EsmcHost)/api/v1/rules/$($reqQuery[0])" -Body ($reqQuery[1] | ConvertTo-Json) -Headers @{'Authorization' = 'Bearer '+$token}  #-SkipCertificateCheck #this skip cert switch only works on v7 Powershell(possibly on v6)
+	    $response = Invoke-WebRequest -Method PATCH -Uri "https://$($EsmcHost)/api/v1/rules/$($reqQuery[0])" -Body ($reqQuery[1] | ConvertTo-Json) -Headers @{'Authorization' = 'Bearer '+$token}-websession $seshGetAuthEic  #-SkipCertificateCheck #this skip cert switch only works on v7 Powershell(possibly on v6)
 		#response 204 = Success
     If ($response.StatusCode -eq 204) {
         #return ($response.headers)
@@ -109,7 +153,7 @@ function enableDisableRule ($reqQuery) {
 #function to get server version from "serverinfo.js"
 function getSvrVer () {
 	myLogger -myStr "`r`nGrabbing EEI Server Version from https://$($EsmcHost)/serverinfo.js"
-	$response = Invoke-WebRequest -Method GET -Uri "https://$($EsmcHost)/serverinfo.js"  #-SkipCertificateCheck #this skip cert switch only works on v7 Powershell(possibly on v6)
+	$response = Invoke-WebRequest -Method GET -Uri "https://$($EsmcHost)/serverinfo.js"-websession $seshGetAuthEic  #-SkipCertificateCheck #this skip cert switch only works on v7 Powershell(possibly on v6)
     If ($response.StatusCode -eq 200) {
         #return ($response.headers)
         return (((($response.content -split("`r`n") | Select-String -Pattern '"version": ').ToString().Trim(",")) -split (": "))[1]).Trim('"')
@@ -162,9 +206,9 @@ Please select your current EEI Version from below (must match your current EEI S
 Write-Host "`r`n`r`nPlease supply the follwoing ""EEI Connection"" info:"
 #$EsmcHost = "10.0.0.118"
 $EsmcHost = Read-Host "  EEI Server Hostname/IP"
-#$Esmcuser = "Demo\jradmin"
+#$Esmcuser = "demo\jradmin"
 $Esmcuser = Read-Host "  Username or Domain\Username"
-#$EsmcPass = "Eset.nod32"
+#$EsmcPass = (ConvertTo-SecureString -String "password" -AsPlainText -Force)
 $EsmcPass = Read-Host "  Password" -AsSecureString
 
 If ($Esmcuser.contains("\")) {
@@ -226,13 +270,7 @@ Write-Host "`r`n"
 
 
 
-#create Hash Table with login credentials
-$global:LoginReq = @{}
-$global:LoginReq.username     = $Esmcuser
-$BSTR = [System.Runtime.InteropServices.Marshal]::SecureStringToBSTR($EsmcPass)
-$global:LoginReq.password     = [System.Runtime.InteropServices.Marshal]::PtrToStringAuto($BSTR)
-$BSTR = $Null
-$global:LoginReq.domain       = $EsmcIsDomainUser
+
 
 
 <#check if domain, if true verify username has correct formatting.  Give error and exit if not correct
@@ -243,7 +281,33 @@ If ($global:LoginReq.domain -eq $True) {
     }
 }
 #>
-$token = authenticate($global:LoginReq)
+If ($EsmcHost -eq "inspect.eset.com") {
+    #set initial items for EICAuth
+    $seshGetAuthEic = $null
+    $resp00 = Invoke-WebRequest -Method GET -Uri "https://inspect.eset.com" -SessionVariable "seshGetAuthEic" -MaximumRedirection 0
+    $callback = ($resp00.Headers.'Location').Replace('/core/connect/authorize?', '/connect/authorize/callback?')
+    $resp01 = Invoke-WebRequest -Method GET -Uri $resp00.Headers.'Location' -websession $seshGetAuthEic -MaximumRedirection 5
+    #create Hash Table with EIC login credentials
+    $global:LoginReq = @{}
+    $global:LoginReq.email     = $Esmcuser
+    $BSTR = [System.Runtime.InteropServices.Marshal]::SecureStringToBSTR($EsmcPass)
+    $global:LoginReq.password     = [System.Runtime.InteropServices.Marshal]::PtrToStringAuto($BSTR)
+    $global:LoginReq.returnUrl = $callback.Replace('https://identity.eset.com', '')
+    $BSTR = $Null
+    #Authenticate
+    $token = authenticateEIC($global:LoginReq)
+} else {
+    $seshGetAuthEic = $null
+    #create Hash Table with login credentials
+    $global:LoginReq = @{}
+    $global:LoginReq.username     = $Esmcuser
+    $BSTR = [System.Runtime.InteropServices.Marshal]::SecureStringToBSTR($EsmcPass)
+    $global:LoginReq.password     = [System.Runtime.InteropServices.Marshal]::PtrToStringAuto($BSTR)
+    $BSTR = $Null
+    $global:LoginReq.domain       = $EsmcIsDomainUser
+    #Authenticate
+    $token = authenticate($global:LoginReq)
+}
 if ($verbose) {
 	myLogger -myStr  "Token: $($token)"
 }
