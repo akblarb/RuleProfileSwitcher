@@ -175,6 +175,7 @@ Please select your current EEI Version from below (must match your current EEI S
 	4 - 1.6.1764.0
 	5 - 1.6.1766.0
 	6 - 1.7.1978.0
+	7 - 1.7.1991.0
 	
 	Q - Not Listed - Exit
 
@@ -193,6 +194,8 @@ Please select your current EEI Version from below (must match your current EEI S
 			$eeiSetVer = "1.6.1766.0"
 		}'6'{
 			$eeiSetVer = "1.7.1978.0"
+		}'7'{
+			$eeiSetVer = "1.7.1991.0"
 		}'Q'{
 			myLogger -myStr "Selected to Quit - $($eeiVerSelect)"
 			exit
